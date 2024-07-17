@@ -1,1 +1,0 @@
-audio_play_sound(sound_RoomStartMusic, 0, true);

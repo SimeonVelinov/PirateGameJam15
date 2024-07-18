@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Functions",
+  "%Name":"DrawMagic_Functions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Functions",
+  "name":"DrawMagic_Functions",
   "parent":{
-    "name":"GameJam Practice",
-    "path":"GameJam Practice.yyp",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

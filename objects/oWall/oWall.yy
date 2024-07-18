@@ -6,8 +6,8 @@
   "name":"oWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameJam Practice",
-    "path":"GameJam Practice.yyp",
+    "name":"Walls Parent",
+    "path":"folders/Objects/Walls Parent.yy",
   },
   "parentObjectId":null,
   "persistent":false,

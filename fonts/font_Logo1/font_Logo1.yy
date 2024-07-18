@@ -120,8 +120,8 @@
   "maintainGms1Font":false,
   "name":"font_Logo1",
   "parent":{
-    "name":"Logo 1",
-    "path":"folders/Logo 1.yy",
+    "name":"Splash & Game Start",
+    "path":"folders/Fonts/Splash & Game Start.yy",
   },
   "pointRounding":0,
   "ranges":[

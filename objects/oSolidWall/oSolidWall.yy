@@ -6,8 +6,8 @@
   "name":"oSolidWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameJam Practice",
-    "path":"GameJam Practice.yyp",
+    "name":"Spirit Soother",
+    "path":"Spirit Soother.yyp",
   },
   "parentObjectId":{
     "name":"oWall",

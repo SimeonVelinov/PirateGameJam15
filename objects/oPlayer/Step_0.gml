@@ -1,4 +1,4 @@
-// get imputs
+// get inputs
 rightKey = keyboard_check(ord("D"));
 leftKey = keyboard_check(ord("A"));
 upKey = keyboard_check(ord("W"));

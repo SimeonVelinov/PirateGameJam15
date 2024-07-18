@@ -26,6 +26,8 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"room_StartScreen","path":"rooms/room_StartScreen/room_StartScreen.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Functions","path":"scripts/Functions/Functions.yy",},},
+    {"id":{"name":"sLightningAim","path":"sprites/sLightningAim/sLightningAim.yy",},},
     {"id":{"name":"sPlayerDown","path":"sprites/sPlayerDown/sPlayerDown.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
     {"id":{"name":"sPlayerRIght","path":"sprites/sPlayerRIght/sPlayerRIght.yy",},},

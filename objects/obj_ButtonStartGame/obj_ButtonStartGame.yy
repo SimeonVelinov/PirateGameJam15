@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_ButtonStartGame",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_ButtonStartGame",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ButtonParent","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TRY AGAIN",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":{
     "name":"obj_ButtonParent",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Functions",
   "parent":{
-    "name":"Spirit Soother",
-    "path":"Spirit Soother.yyp",
+    "name":"GameJam Practice",
+    "path":"GameJam Practice.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

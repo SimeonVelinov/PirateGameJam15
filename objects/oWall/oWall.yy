@@ -6,8 +6,8 @@
   "name":"oWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spirit Soother",
-    "path":"Spirit Soother.yyp",
+    "name":"GameJam Practice",
+    "path":"GameJam Practice.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

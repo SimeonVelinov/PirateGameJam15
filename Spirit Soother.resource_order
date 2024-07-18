@@ -28,4 +28,7 @@
     {"name":"sPlayerUp","order":4,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
   ],
+=======
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[],
 }

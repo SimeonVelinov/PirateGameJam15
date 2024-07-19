@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Transition_Functions",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Transition",
+    "path":"folders/Scripts/Transition.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

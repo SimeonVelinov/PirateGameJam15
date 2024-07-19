@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"GameJam Practice",
-    "path":"GameJam Practice.yyp",
+    "name":"Spirit Soother",
+    "path":"Spirit Soother.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

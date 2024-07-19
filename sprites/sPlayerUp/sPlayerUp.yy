@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Player",
-    "path":"folders/Player.yy",
+    "name":"Spirit Soother",
+    "path":"Spirit Soother.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

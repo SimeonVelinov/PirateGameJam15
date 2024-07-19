@@ -32,8 +32,8 @@
   },
   "name":"seq_Logo1",
   "parent":{
-    "name":"Logo 1",
-    "path":"folders/Logo 1.yy",
+    "name":"Splash & Game Start",
+    "path":"folders/Sequences/Splash & Game Start.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

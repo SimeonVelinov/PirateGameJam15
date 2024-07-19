@@ -5,7 +5,7 @@
 	yspd = 0;
 
 
-//sprite control
+//sprite controll
 	centerYOffest = -3;
 	centerY = y + centerYOffest; // set in step
 	

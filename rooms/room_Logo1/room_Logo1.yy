@@ -16,8 +16,8 @@
   ],
   "name":"room_Logo1",
   "parent":{
-    "name":"Logo 1",
-    "path":"folders/Logo 1.yy",
+    "name":"Splash & Game Start",
+    "path":"folders/Rooms/Splash & Game Start.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

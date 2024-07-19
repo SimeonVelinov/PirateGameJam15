@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -56,32 +56,25 @@
     {"id":{"name":"obj_ButtonParent","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},},
     {"id":{"name":"obj_ButtonQuitGame","path":"objects/obj_ButtonQuitGame/obj_ButtonQuitGame.yy",},},
     {"id":{"name":"obj_ButtonStartGame","path":"objects/obj_ButtonStartGame/obj_ButtonStartGame.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"obj_PlayerParent","path":"objects/obj_PlayerParent/obj_PlayerParent.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
-=======
     {"id":{"name":"Object9","path":"objects/Object9/Object9.yy",},},
-=======
     {"id":{"name":"ObjBasicAttack","path":"objects/ObjBasicAttack/ObjBasicAttack.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"ObjOWall","path":"objects/ObjOWall/ObjOWall.yy",},},
     {"id":{"name":"ObjPlayerParent","path":"objects/ObjPlayerParent/ObjPlayerParent.yy",},},
     {"id":{"name":"ObjSolidWall","path":"objects/ObjSolidWall/ObjSolidWall.yy",},},
     {"id":{"name":"oRailroad","path":"objects/oRailroad/oRailroad.yy",},},
->>>>>>> Stashed changes
+    {"id":{"name":"ObjOWall","path":"objects/ObjOWall/ObjOWall.yy",},},
+    {"id":{"name":"ObjSolidWall","path":"objects/ObjSolidWall/ObjSolidWall.yy",},},
     {"id":{"name":"room_DuplicateMe","path":"rooms/room_DuplicateMe/room_DuplicateMe.yy",},},
     {"id":{"name":"room_GameStart","path":"rooms/room_GameStart/room_GameStart.yy",},},
     {"id":{"name":"room_Logo1","path":"rooms/room_Logo1/room_Logo1.yy",},},
     {"id":{"name":"room_PlayTest","path":"rooms/room_PlayTest/room_PlayTest.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"DrawMagic_Functions","path":"scripts/DrawMagic_Functions/DrawMagic_Functions.yy",},},
     {"id":{"name":"Transition_Functions","path":"scripts/Transition_Functions/Transition_Functions.yy",},},
     {"id":{"name":"seq_Logo1","path":"sequences/seq_Logo1/seq_Logo1.yy",},},
-
-=======
     {"id":{"name":"playerAiming","path":"scripts/playerAiming/playerAiming.yy",},},
     {"id":{"name":"playerBasicAttack","path":"scripts/playerBasicAttack/playerBasicAttack.yy",},},
     {"id":{"name":"playerDraw","path":"scripts/playerDraw/playerDraw.yy",},},
@@ -95,26 +88,26 @@
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},
     {"id":{"name":"sPlayerUp","path":"sprites/sPlayerUp/sPlayerUp.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"spr_1pixel","path":"sprites/spr_1pixel/spr_1pixel.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_GameStartSketch","path":"sprites/spr_GameStartSketch/spr_GameStartSketch.yy",},},
-
-=======
-=======
 	{"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"room_StartScreen","path":"rooms/room_StartScreen/room_StartScreen.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Functions","path":"scripts/Functions/Functions.yy",},},
-
+    {"id":{"name":"Functions","path":"scripts/Functions/Functions.yy",},},
+    {"id":{"name":"playerAiming","path":"scripts/playerAiming/playerAiming.yy",},},
+    {"id":{"name":"PlayerMovement","path":"scripts/PlayerMovement/PlayerMovement.yy",},},
+    {"id":{"name":"playerSprites","path":"scripts/playerSprites/playerSprites.yy",},},
+    {"id":{"name":"Transition_Functions","path":"scripts/Transition_Functions/Transition_Functions.yy",},},
+    {"id":{"name":"seq_Logo1","path":"sequences/seq_Logo1/seq_Logo1.yy",},},
     {"id":{"name":"sLightningAim","path":"sprites/sLightningAim/sLightningAim.yy",},},
     {"id":{"name":"sPlayerDown","path":"sprites/sPlayerDown/sPlayerDown.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
-    {"id":{"name":"sPlayerRIght","path":"sprites/sPlayerRIght/sPlayerRIght.yy",},},
+    {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},
     {"id":{"name":"sPlayerUp","path":"sprites/sPlayerUp/sPlayerUp.yy",},},
-
     {"id":{"name":"spr_1pixel","path":"sprites/spr_1pixel/spr_1pixel.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_GameStartSketch","path":"sprites/spr_GameStartSketch/spr_GameStartSketch.yy",},},
@@ -122,11 +115,6 @@
     {"id":{"name":"sRoad","path":"sprites/sRoad/sRoad.yy",},},
     {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
-
-=======
-    {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
-    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
-
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -135,8 +123,6 @@
     {"roomId":{"name":"room_PlayTest","path":"rooms/room_PlayTest/room_PlayTest.yy",},},
     {"roomId":{"name":"room_Logo1","path":"rooms/room_Logo1/room_Logo1.yy",},},
     {"roomId":{"name":"room_DuplicateMe","path":"rooms/room_DuplicateMe/room_DuplicateMe.yy",},},
-	{"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"room_StartScreen","path":"rooms/room_StartScreen/room_StartScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -44,8 +44,8 @@
   },
   "origin":7,
   "parent":{
-    "name":"Spirit Soother",
-    "path":"Spirit Soother.yyp",
+    "name":"Player",
+    "path":"folders/Sprites/Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

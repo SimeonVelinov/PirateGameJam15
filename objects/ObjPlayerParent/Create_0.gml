@@ -5,14 +5,14 @@
 	yspd = 0;
 
 
-//sprite controll
+//sprite control
 	centerYOffest = -3;
 	centerY = y + centerYOffest; // set in step
 	
 	magicOffsetDist = 4;
 
 	face = 3;
-	sprite[0] = sPlayerRIght;
+	sprite[0] = sPlayerRight;
 	sprite[1] = sPlayerUp;
 	sprite[2] = sPlayerLeft;
 	sprite[3] = sPlayerDown;

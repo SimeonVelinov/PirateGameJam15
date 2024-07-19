@@ -10,7 +10,6 @@
 	centerY = y + centerYOffest; // set in step
 	
 	magicOffsetDist = 4;
-	aimDir = 0;
 
 	face = 3;
 	sprite[0] = sPlayerRIght;

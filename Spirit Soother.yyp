@@ -64,39 +64,19 @@
     {"id":{"name":"room_GameStart","path":"rooms/room_GameStart/room_GameStart.yy",},},
     {"id":{"name":"room_Logo1","path":"rooms/room_Logo1/room_Logo1.yy",},},
     {"id":{"name":"room_PlayTest","path":"rooms/room_PlayTest/room_PlayTest.yy",},},
-    {"id":{"name":"DrawMagic_Functions","path":"scripts/DrawMagic_Functions/DrawMagic_Functions.yy",},},
+    {"id":{"name":"Functions","path":"scripts/Functions/Functions.yy",},},
     {"id":{"name":"Transition_Functions","path":"scripts/Transition_Functions/Transition_Functions.yy",},},
     {"id":{"name":"seq_Logo1","path":"sequences/seq_Logo1/seq_Logo1.yy",},},
-
-    {"id":{"name":"spr_1pixel","path":"sprites/spr_1pixel/spr_1pixel.yy",},},
-    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
-    {"id":{"name":"spr_GameStartSketch","path":"sprites/spr_GameStartSketch/spr_GameStartSketch.yy",},},
-
-=======
-=======
-	{"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
-    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
-    {"id":{"name":"room_StartScreen","path":"rooms/room_StartScreen/room_StartScreen.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"id":{"name":"Functions","path":"scripts/Functions/Functions.yy",},},
-
     {"id":{"name":"sLightningAim","path":"sprites/sLightningAim/sLightningAim.yy",},},
     {"id":{"name":"sPlayerDown","path":"sprites/sPlayerDown/sPlayerDown.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
     {"id":{"name":"sPlayerRIght","path":"sprites/sPlayerRIght/sPlayerRIght.yy",},},
     {"id":{"name":"sPlayerUp","path":"sprites/sPlayerUp/sPlayerUp.yy",},},
-
     {"id":{"name":"spr_1pixel","path":"sprites/spr_1pixel/spr_1pixel.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_GameStartSketch","path":"sprites/spr_GameStartSketch/spr_GameStartSketch.yy",},},
     {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
-
-=======
-    {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
-    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
-
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -105,8 +85,6 @@
     {"roomId":{"name":"room_PlayTest","path":"rooms/room_PlayTest/room_PlayTest.yy",},},
     {"roomId":{"name":"room_Logo1","path":"rooms/room_Logo1/room_Logo1.yy",},},
     {"roomId":{"name":"room_DuplicateMe","path":"rooms/room_DuplicateMe/room_DuplicateMe.yy",},},
-	{"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"room_StartScreen","path":"rooms/room_StartScreen/room_StartScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

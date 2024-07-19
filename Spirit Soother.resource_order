@@ -65,6 +65,4 @@
     {"name":"sPlayerUp","order":2,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
     {"name":"sRailroad","order":1,"path":"sprites/sRailroad/sRailroad.yy",},
   ],
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
 }

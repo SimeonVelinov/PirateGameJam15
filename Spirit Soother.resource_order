@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings":[
-<<<<<<< Updated upstream
     {"name":"Splash & Game Start","order":2,"path":"folders/Fonts/Splash & Game Start.yy",},
     {"name":"Buttons","order":3,"path":"folders/Objects/Buttons.yy",},
     {"name":"Pixel Transition Object","order":8,"path":"folders/Objects/Pixel Transition Object.yy",},
@@ -32,7 +31,6 @@
     {"name":"playerAiming","order":2,"path":"scripts/playerAiming/playerAiming.yy",},
     {"name":"PlayerMovement","order":1,"path":"scripts/PlayerMovement/PlayerMovement.yy",},
     {"name":"playerSprites","order":3,"path":"scripts/playerSprites/playerSprites.yy",},
-=======
     {"name":"Music","order":3,"path":"folders/Objects/Music.yy",},
     {"name":"Sound","order":4,"path":"folders/Objects/Sound.yy",},
     {"name":"UI","order":5,"path":"folders/Objects/UI.yy",},
@@ -66,6 +64,7 @@
     {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
     {"name":"sPlayerUp","order":2,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
     {"name":"sRailroad","order":1,"path":"sprites/sRailroad/sRailroad.yy",},
->>>>>>> Stashed changes
   ],
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[],
 }

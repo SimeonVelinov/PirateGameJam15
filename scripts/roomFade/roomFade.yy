@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"roomFade",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"roomFade",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

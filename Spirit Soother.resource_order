@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "FolderOrderSettings":[
     {"name":"Splash & Game Start","order":2,"path":"folders/Fonts/Splash & Game Start.yy",},
     {"name":"Buttons","order":3,"path":"folders/Objects/Buttons.yy",},
@@ -14,6 +15,17 @@
     {"name":"Pixel Transition Sprite","order":12,"path":"folders/Sprites/Pixel Transition Sprite.yy",},
     {"name":"Player","order":10,"path":"folders/Sprites/Player.yy",},
     {"name":"Walls","order":14,"path":"folders/Sprites/Walls.yy",},
+=======
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Object9","order":2,"path":"objects/Object9/Object9.yy",},
+    {"name":"oRailroad","order":1,"path":"objects/oRailroad/oRailroad.yy",},
+    {"name":"playerAiming","order":2,"path":"scripts/playerAiming/playerAiming.yy",},
+    {"name":"PlayerMovement","order":1,"path":"scripts/PlayerMovement/PlayerMovement.yy",},
+    {"name":"playerSprites","order":3,"path":"scripts/playerSprites/playerSprites.yy",},
+    {"name":"sRailroad","order":2,"path":"sprites/sRailroad/sRailroad.yy",},
+    {"name":"sRoad","order":1,"path":"sprites/sRoad/sRoad.yy",},
+>>>>>>> Stashed changes
   ],
   "ResourceOrderSettings":[
     {"name":"font_Logo1","order":1,"path":"fonts/font_Logo1/font_Logo1.yy",},

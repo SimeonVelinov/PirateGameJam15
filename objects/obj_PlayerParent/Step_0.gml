@@ -1,4 +1,4 @@
-// get imputs
+// get inputs
 rightKey = keyboard_check(ord("D"));
 leftKey = keyboard_check(ord("A"));
 upKey = keyboard_check(ord("W"));
@@ -10,25 +10,25 @@ downKey = keyboard_check(ord("S"));
 //player movement
 #region
 	//get the direction
-	var _horizKey = rightKey - leftKey;
-	var _vertKey = downKey - upKey;
-	moveDir = point_direction(0, 0, _horizKey, _vertKey);
+	var horizKey = rightKey - leftKey;
+	var vertKey = downKey - upKey;
+	moveDir = point_direction(0, 0, horizKey, vertKey);
 	
 	//get speed
-	var _spd = 0;
-	var _inputLevel = point_distance(0, 0, _horizKey, _vertKey);
-	_inputLevel = clamp(_inputLevel, 0, 1);
-	_spd = moveSpd * _inputLevel;
+	var spd = 0;
+	var inputLevel = point_distance(0, 0, horizKey, vertKey);
+	inputLevel = clamp(inputLevel, 0, 1);
+	spd = moveSpd * inputLevel;
 	
-	xspd = lengthdir_x(_spd, moveDir);
-	yspd = lengthdir_y(_spd, moveDir);
+	xspd = lengthdir_x(spd, moveDir);
+	yspd = lengthdir_y(spd, moveDir);
 	
 	//collision
-	if place_meeting(x + xspd, y, oWall)
+	if place_meeting(x + xspd, y, ObjOWall)
 	{
 		xspd = 0;
 	}
-	if place_meeting(x, y + yspd, oWall)
+	if place_meeting(x, y + yspd, ObjOWall)
 	{
 		yspd = 0;
 	}
@@ -46,7 +46,7 @@ downKey = keyboard_check(ord("S"));
 	aimDir = point_direction(x, centerY, mouse_x, mouse_y);
 	
 	
-//sprite controll
+//sprite control
 	//facing
 	face = round( aimDir/90);
 	if face == 4 { face = 0; };

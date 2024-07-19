@@ -1,4 +1,4 @@
 
-function TransitionNextRoom(){
+function transitionNextRoom(){
 room_goto_next();
 }

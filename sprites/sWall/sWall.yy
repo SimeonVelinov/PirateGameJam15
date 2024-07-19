@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Spirit Soother",
-    "path":"Spirit Soother.yyp",
+    "name":"Walls",
+    "path":"folders/Sprites/Walls.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

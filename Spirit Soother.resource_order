@@ -1,4 +1,13 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"ObjConeAttack","order":1,"path":"objects/ObjConeAttack/ObjConeAttack.yy",},
+    {"name":"ObjPlayer","order":2,"path":"objects/ObjPlayer/ObjPlayer.yy",},
+    {"name":"playerAiming","order":3,"path":"scripts/playerAiming/playerAiming.yy",},
+    {"name":"playerBasicAttack","order":4,"path":"scripts/playerBasicAttack/playerBasicAttack.yy",},
+    {"name":"playerDraw","order":5,"path":"scripts/playerDraw/playerDraw.yy",},
+    {"name":"playerMovement","order":6,"path":"scripts/playerMovement/playerMovement.yy",},
+    {"name":"playerSprites","order":7,"path":"scripts/playerSprites/playerSprites.yy",},
+    {"name":"sConeAttack","order":1,"path":"sprites/sConeAttack/sConeAttack.yy",},
+  ],
 }

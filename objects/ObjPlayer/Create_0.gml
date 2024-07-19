@@ -4,6 +4,7 @@
 	xspd = 0;
 	yspd = 0;
 	canShoot = true;
+	canCone = true;
 
 
 //sprite control

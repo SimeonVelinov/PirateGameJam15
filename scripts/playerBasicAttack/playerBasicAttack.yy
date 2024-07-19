@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"playerBasicAttack",
   "parent":{
-    "name":"Player Parent",
-    "path":"folders/Objects/Player Parent.yy",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

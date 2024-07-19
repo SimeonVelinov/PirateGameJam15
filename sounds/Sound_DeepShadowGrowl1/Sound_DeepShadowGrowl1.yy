@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sound_DeepShadowGrowl1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":3.645533,
+  "name":"Sound_DeepShadowGrowl1",
+  "parent":{
+    "name":"Enemies (Shadows)",
+    "path":"folders/Sounds/Enemies (Shadows).yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sound_DeepShadowGrowl1.mp3",
+  "type":0,
+  "volume":1.0,
+}

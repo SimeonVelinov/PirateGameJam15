@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+<<<<<<< Updated upstream
     {"name":"Splash & Game Start","order":2,"path":"folders/Fonts/Splash & Game Start.yy",},
     {"name":"Buttons","order":3,"path":"folders/Objects/Buttons.yy",},
     {"name":"Pixel Transition Object","order":8,"path":"folders/Objects/Pixel Transition Object.yy",},
@@ -31,5 +32,40 @@
     {"name":"playerAiming","order":2,"path":"scripts/playerAiming/playerAiming.yy",},
     {"name":"PlayerMovement","order":1,"path":"scripts/PlayerMovement/PlayerMovement.yy",},
     {"name":"playerSprites","order":3,"path":"scripts/playerSprites/playerSprites.yy",},
+=======
+    {"name":"Music","order":3,"path":"folders/Objects/Music.yy",},
+    {"name":"Sound","order":4,"path":"folders/Objects/Sound.yy",},
+    {"name":"UI","order":5,"path":"folders/Objects/UI.yy",},
+    {"name":"Player Scripts","order":1,"path":"folders/Scripts/Player Scripts.yy",},
+    {"name":"Transition","order":2,"path":"folders/Scripts/Transition.yy",},
+    {"name":"UI","order":3,"path":"folders/Scripts/UI.yy",},
+    {"name":"Enemies (Shadows)","order":15,"path":"folders/Sounds/Enemies (Shadows).yy",},
+    {"name":"Hiccups","order":16,"path":"folders/Sounds/Hiccups.yy",},
+    {"name":"Music","order":18,"path":"folders/Sounds/Music.yy",},
+    {"name":"Player (Wizard)","order":14,"path":"folders/Sounds/Player (Wizard).yy",},
+    {"name":"Skills","order":4,"path":"folders/Sprites/Player/Skills.yy",},
+    {"name":"UI","order":1,"path":"folders/Sprites/UI.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"playerAiming","order":4,"path":"scripts/playerAiming/playerAiming.yy",},
+    {"name":"playerBasicAttack","order":3,"path":"scripts/playerBasicAttack/playerBasicAttack.yy",},
+    {"name":"playerDraw","order":2,"path":"scripts/playerDraw/playerDraw.yy",},
+    {"name":"playerMovement","order":1,"path":"scripts/playerMovement/playerMovement.yy",},
+    {"name":"Sound_DeepShadowGrowl2","order":1,"path":"sounds/Sound_DeepShadowGrowl2/Sound_DeepShadowGrowl2.yy",},
+    {"name":"Sound_Hiccup2","order":1,"path":"sounds/Sound_Hiccup2/Sound_Hiccup2.yy",},
+    {"name":"Sound_Injured1","order":1,"path":"sounds/Sound_Injured1/Sound_Injured1.yy",},
+    {"name":"Sound_JumpScareGrowl1","order":2,"path":"sounds/Sound_JumpScareGrowl1/Sound_JumpScareGrowl1.yy",},
+    {"name":"Sound_LowShadowGrowl1","order":3,"path":"sounds/Sound_LowShadowGrowl1/Sound_LowShadowGrowl1.yy",},
+    {"name":"Sound_RaspingGrowl1","order":4,"path":"sounds/Sound_RaspingGrowl1/Sound_RaspingGrowl1.yy",},
+    {"name":"Sound_Shadow1","order":5,"path":"sounds/Sound_Shadow1/Sound_Shadow1.yy",},
+    {"name":"Sound_WizardHiccup1","order":2,"path":"sounds/Sound_WizardHiccup1/Sound_WizardHiccup1.yy",},
+    {"name":"Sound_WizardHiccup2","order":3,"path":"sounds/Sound_WizardHiccup2/Sound_WizardHiccup2.yy",},
+    {"name":"Sound_WizardHiccup3","order":4,"path":"sounds/Sound_WizardHiccup3/Sound_WizardHiccup3.yy",},
+    {"name":"sLightningAim","order":1,"path":"sprites/sLightningAim/sLightningAim.yy",},
+    {"name":"sPlayerLeft","order":1,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
+    {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
+    {"name":"sPlayerUp","order":2,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
+    {"name":"sRailroad","order":1,"path":"sprites/sRailroad/sRailroad.yy",},
+>>>>>>> Stashed changes
   ],
 }

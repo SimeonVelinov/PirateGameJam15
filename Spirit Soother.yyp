@@ -88,6 +88,7 @@
     {"id":{"name":"Transition_Functions","path":"scripts/Transition_Functions/Transition_Functions.yy",},},
     {"id":{"name":"seq_Logo1","path":"sequences/seq_Logo1/seq_Logo1.yy",},},
     {"id":{"name":"BlackOutBar_NotWorking","path":"scripts/BlackOutBar_NotWorking/BlackOutBar_NotWorking.yy",},},
+    {"id":{"name":"Functions","path":"scripts/Functions/Functions.yy",},},
     {"id":{"name":"playerAiming","path":"scripts/playerAiming/playerAiming.yy",},},
     {"id":{"name":"playerBasicAttack","path":"scripts/playerBasicAttack/playerBasicAttack.yy",},},
     {"id":{"name":"playerDraw","path":"scripts/playerDraw/playerDraw.yy",},},

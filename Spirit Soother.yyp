@@ -59,6 +59,8 @@
     {"id":{"name":"obj_PlayerParent","path":"objects/obj_PlayerParent/obj_PlayerParent.yy",},},
     {"id":{"name":"ObjOWall","path":"objects/ObjOWall/ObjOWall.yy",},},
     {"id":{"name":"ObjSolidWall","path":"objects/ObjSolidWall/ObjSolidWall.yy",},},
+    {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"room_DuplicateMe","path":"rooms/room_DuplicateMe/room_DuplicateMe.yy",},},
     {"id":{"name":"room_GameStart","path":"rooms/room_GameStart/room_GameStart.yy",},},
     {"id":{"name":"room_Logo1","path":"rooms/room_Logo1/room_Logo1.yy",},},

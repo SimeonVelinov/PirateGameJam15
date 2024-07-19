@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sRailroad",
+    "path":"sprites/sRailroad/sRailroad.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

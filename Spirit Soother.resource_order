@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
   "FolderOrderSettings":[
     {"name":"Splash & Game Start","order":2,"path":"folders/Fonts/Splash & Game Start.yy",},
     {"name":"Buttons","order":3,"path":"folders/Objects/Buttons.yy",},
@@ -15,7 +14,6 @@
     {"name":"Pixel Transition Sprite","order":12,"path":"folders/Sprites/Pixel Transition Sprite.yy",},
     {"name":"Player","order":10,"path":"folders/Sprites/Player.yy",},
     {"name":"Walls","order":14,"path":"folders/Sprites/Walls.yy",},
-=======
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"Object9","order":2,"path":"objects/Object9/Object9.yy",},
@@ -25,22 +23,11 @@
     {"name":"playerSprites","order":3,"path":"scripts/playerSprites/playerSprites.yy",},
     {"name":"sRailroad","order":2,"path":"sprites/sRailroad/sRailroad.yy",},
     {"name":"sRoad","order":1,"path":"sprites/sRoad/sRoad.yy",},
->>>>>>> Stashed changes
   ],
-  "ResourceOrderSettings":[
-    {"name":"font_Logo1","order":1,"path":"fonts/font_Logo1/font_Logo1.yy",},
-    {"name":"obj_ButtonQuitGame","order":1,"path":"objects/obj_ButtonQuitGame/obj_ButtonQuitGame.yy",},
-    {"name":"obj_ButtonStartGame","order":2,"path":"objects/obj_ButtonStartGame/obj_ButtonStartGame.yy",},
-    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
-    {"name":"room_Logo1","order":1,"path":"rooms/room_Logo1/room_Logo1.yy",},
-    {"name":"DrawMagic_Functions","order":1,"path":"scripts/DrawMagic_Functions/DrawMagic_Functions.yy",},
-    {"name":"sPlayerDown","order":1,"path":"sprites/sPlayerDown/sPlayerDown.yy",},
-    {"name":"sPlayerLeft","order":2,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
-    {"name":"sPlayerRIght","order":3,"path":"sprites/sPlayerRIght/sPlayerRIght.yy",},
-    {"name":"sPlayerUp","order":4,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
-    {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
-  ],
-=======
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"playerAiming","order":2,"path":"scripts/playerAiming/playerAiming.yy",},
+    {"name":"PlayerMovement","order":1,"path":"scripts/PlayerMovement/PlayerMovement.yy",},
+    {"name":"playerSprites","order":3,"path":"scripts/playerSprites/playerSprites.yy",},
+  ],
 }

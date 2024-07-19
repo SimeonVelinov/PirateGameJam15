@@ -1,18 +1,8 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"ObjSolidWall","order":1,"path":"objects/ObjSolidWall/ObjSolidWall.yy",},
-    {"name":"sLightningAim","order":5,"path":"sprites/sLightningAim/sLightningAim.yy",},
-    {"name":"sPlayerDown","order":1,"path":"sprites/sPlayerDown/sPlayerDown.yy",},
-    {"name":"sPlayerLeft","order":2,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
-    {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
-    {"name":"sPlayerUp","order":4,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
-    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
-    {"name":"sLightningAim","order":1,"path":"sprites/sLightningAim/sLightningAim.yy",},
-    {"name":"sPlayerDown","order":2,"path":"sprites/sPlayerDown/sPlayerDown.yy",},
-    {"name":"sPlayerLeft","order":3,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
-    {"name":"sPlayerRIght","order":4,"path":"sprites/sPlayerRIght/sPlayerRIght.yy",},
-    {"name":"sPlayerUp","order":5,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
-    {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"playerAiming","order":2,"path":"scripts/playerAiming/playerAiming.yy",},
+    {"name":"PlayerMovement","order":1,"path":"scripts/PlayerMovement/PlayerMovement.yy",},
+    {"name":"playerSprites","order":3,"path":"scripts/playerSprites/playerSprites.yy",},
   ],
 }

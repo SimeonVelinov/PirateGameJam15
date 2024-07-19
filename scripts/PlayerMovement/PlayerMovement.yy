@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"playerMovement",
   "parent":{
-    "name":"Player Scripts",
-    "path":"folders/Scripts/Player Scripts.yy",
+    "name":"Player Parent",
+    "path":"folders/Objects/Player Parent.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

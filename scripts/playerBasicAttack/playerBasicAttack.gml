@@ -4,5 +4,7 @@ function playerBasicAttack() {
 	
 	if (keyShoot && canShoot) {
 		instance_create_layer(x, y, "Instances", ObjBasicAttack);
+		canShoot = false;
+		alarm[0] = 15;
 	}
 }

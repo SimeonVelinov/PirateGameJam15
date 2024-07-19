@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"playerMovement",
+  "%Name":"playerDraw",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"playerMovement",
+  "name":"playerDraw",
   "parent":{
     "name":"Player Parent",
     "path":"folders/Objects/Player Parent.yy",

@@ -1,0 +1,4 @@
+playerSprites();
+playerMovement();
+playerAiming();
+playerBasicAttack();

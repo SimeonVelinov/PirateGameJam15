@@ -23,7 +23,7 @@
   ],
   "name":"sBasicAttack",
   "nineSlice":null,
-  "origin":3,
+  "origin":0,
   "parent":{
     "name":"Skills",
     "path":"folders/Sprites/Player/Skills.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":32,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

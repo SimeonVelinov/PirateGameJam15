@@ -4,3 +4,4 @@ playerZoneEnter();
 playerAiming();
 playerBasicAttack();
 playerConeAttack();
+playerFrostAttack();

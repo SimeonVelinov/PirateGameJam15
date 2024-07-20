@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"EnemySpawners","order":6,"path":"folders/Objects/EnemySpawners.yy",},
+    {"name":"Enemies","order":7,"path":"folders/Objects/Enemies.yy",},
     {"name":"Pixel Transition Object","order":1,"path":"folders/Objects/Pixel Transition Object.yy",},
     {"name":"Player","order":2,"path":"folders/Objects/Player.yy",},
     {"name":"Walls Parent","order":3,"path":"folders/Objects/Walls Parent.yy",},
@@ -21,6 +23,7 @@
     {"name":"playerSprites","order":7,"path":"scripts/playerSprites/playerSprites.yy",},
     {"name":"playerZoneEnter","order":8,"path":"scripts/playerZoneEnter/playerZoneEnter.yy",},
     {"name":"roomFade","order":9,"path":"scripts/roomFade/roomFade.yy",},
+    {"name":"BasicShadowPLCHD","order":1,"path":"sprites/BasicShadowPLCHD/BasicShadowPLCHD.yy",},
     {"name":"sConeAttack","order":1,"path":"sprites/sConeAttack/sConeAttack.yy",},
     {"name":"sDoor","order":4,"path":"sprites/sDoor/sDoor.yy",},
     {"name":"sRailroad","order":3,"path":"sprites/sRailroad/sRailroad.yy",},

@@ -1,0 +1,13 @@
+Every night is equal difficulty, 
+but more enemies spawn in subsequent nights.
+
+Nights get harder by increasing the number of enemies
+as more cocktails are drunk.
+
+Generic Cocktail Mix : Increase Movespeed+ , Increase BlackOutBar- ,
+Generic Cocktail Mix : Increase ALL Damage+1,
+
+
+Generic, Light, Arcane
+
+Alcohol : 

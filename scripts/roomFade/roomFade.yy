@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"roomFade",
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"Transition Scripts",
+    "path":"folders/Scripts/Transition Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

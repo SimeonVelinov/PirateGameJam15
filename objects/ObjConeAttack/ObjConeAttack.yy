@@ -9,8 +9,8 @@
   "name":"ObjConeAttack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"Player Attacks",
+    "path":"folders/Objects/Player Attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

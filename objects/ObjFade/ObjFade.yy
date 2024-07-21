@@ -10,8 +10,8 @@
   "name":"ObjFade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pixel Transition Object",
+    "path":"folders/Objects/Pixel Transition Object.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -7,6 +7,18 @@
 	canCone = true;
 	canMove = true;
 	canFrost = true;
+	
+//Black out Bar UI
+	healthBoBMax = 100;
+	healthBoB = 0;
+	
+	healthBoBwidth = 32;
+	healthBoBheight = 128; 
+	//Drawn in GUI (which is the screen position)
+	healthBoB_x = 32;
+	healthBoB_y = 448;
+	
+	iFrames = false; 
 
 
 //sprite control

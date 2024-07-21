@@ -20,7 +20,7 @@ function playerConeAttack() {
 
 function playerFrostAttack()
 {
-	keyFrost = keyboard_check_pressed(ord("Q")) or gamepad_button_check_pressed(0, gp_shoulderl);
+	keyFrost = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_shoulderl);
 	if (keyFrost and canFrost) 
 	{
 		instance_create_layer(x, y, "Instances", ObjFrostAttack);

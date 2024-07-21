@@ -1,6 +1,7 @@
 draw_self();
 
 draw_set_font(font_ButtonsMain);
+draw_set_color(c_white);
 
 draw_set_halign(fa_center);
 
@@ -12,3 +13,5 @@ draw_text(x, y, buttonText);
 	// you want to reset them to default values after drawing.
 draw_set_halign(fa_left); //Reset Draw to its original position
 draw_set_valign(fa_top); //Reset Draw to its original position
+
+

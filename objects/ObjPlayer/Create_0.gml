@@ -1,6 +1,6 @@
 //variables for movement
 	moveDir = 0;
-	moveSpd = 3;
+	moveSpd = 5;
 	xspd = 0;
 	yspd = 0;
 	canShoot = true;

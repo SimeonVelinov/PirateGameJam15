@@ -4,7 +4,7 @@ function playerBasicAttack() {
 	if (keyShoot && canShoot) {
 		instance_create_layer(x, y, "Instances", ObjBasicAttack);
 		canShoot = false;
-		alarm[0] = 15;
+		alarm[0] = 120;
 	}
 }
 
@@ -14,7 +14,7 @@ function playerConeAttack() {
 	if (keyCone && canCone) {
 		instance_create_layer(x, y, "Instances", ObjConeAttack);
 		canCone = false;
-		alarm[1] = 15;
+		alarm[1] = 30;
 	}
 }
 
@@ -25,6 +25,6 @@ function playerFrostAttack()
 	{
 		instance_create_layer(x, y, "Instances", ObjFrostAttack);
 		canFrost = false;
-		alarm[2] = 60;
+		alarm[2] = 30;
 	}
 }

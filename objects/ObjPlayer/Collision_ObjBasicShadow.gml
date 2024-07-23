@@ -1,7 +1,7 @@
 /// @description 
 if healthBoB <= 100 and iFrames == false
 { 
-	healthBoB += 1; 
+	healthBoB += 4; 
 	iFrames = true;
 	alarm[3] = 30;
 }

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sConeAttack",
-    "path":"sprites/sConeAttack/sConeAttack.yy",
+    "name":"Flame_cone_0000_Layer_7",
+    "path":"sprites/Flame_cone_0000_Layer_7/Flame_cone_0000_Layer_7.yy",
   },
   "spriteMaskId":null,
   "visible":true,

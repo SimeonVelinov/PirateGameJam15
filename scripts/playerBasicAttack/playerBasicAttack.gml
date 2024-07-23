@@ -14,7 +14,7 @@ function playerConeAttack() {
 	if (keyCone && canCone) {
 		instance_create_layer(x, y, "Instances", ObjConeAttack);
 		canCone = false;
-		alarm[1] = 15;
+		alarm[1] = 30;
 	}
 }
 

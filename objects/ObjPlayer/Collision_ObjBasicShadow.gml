@@ -3,7 +3,7 @@ if healthBoB <= 100 and iFrames == false
 { 
 	healthBoB += 4; 
 	iFrames = true;
-	alarm[3] = 60;
+	alarm[3] = 30;
 }
 if healthBoB >= healthBoBMax //When the BlackOutBar fills to 100,
 {

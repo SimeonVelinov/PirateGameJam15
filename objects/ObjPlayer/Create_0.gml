@@ -25,11 +25,8 @@
 	centerYOffest = -3;
 	centerY = y + centerYOffest; // set in step
 	
-	magicOffsetDist = 4;
+	magicOffsetDistX = 50;
+	magicOffsetDistY = 80;
 
 	face = 3;
-	sprite[0] = sPlayerRight;
-	sprite[1] = sPlayerUp;
-	sprite[2] = sPlayerLeft;
-	sprite[3] = sPlayerDown;
-
+	sprite[0] = sPlayerAll;

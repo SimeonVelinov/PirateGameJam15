@@ -38,10 +38,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sPlayerDown",
-    "path":"sprites/sPlayerDown/sPlayerDown.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"sPlayerDown",
     "path":"sprites/sPlayerDown/sPlayerDown.yy",

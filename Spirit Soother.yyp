@@ -62,6 +62,8 @@
     {"id":{"name":"font_ButtonsMain","path":"fonts/font_ButtonsMain/font_ButtonsMain.yy",},},
     {"id":{"name":"font_Logo1","path":"fonts/font_Logo1/font_Logo1.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
+    {"id":{"name":"Buffs","path":"objects/Buffs/Buffs.yy",},},
+    {"id":{"name":"Inventory","path":"objects/Inventory/Inventory.yy",},},
     {"id":{"name":"obj_1pixel","path":"objects/obj_1pixel/obj_1pixel.yy",},},
     {"id":{"name":"obj_ButtonParent","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},},
     {"id":{"name":"obj_ButtonQuitGame","path":"objects/obj_ButtonQuitGame/obj_ButtonQuitGame.yy",},},

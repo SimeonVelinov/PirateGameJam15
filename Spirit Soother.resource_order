@@ -18,6 +18,8 @@
     {"name":"Walls","order":4,"path":"folders/Sprites/Walls.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Buffs","order":2,"path":"objects/Buffs/Buffs.yy",},
+    {"name":"Inventory","order":1,"path":"objects/Inventory/Inventory.yy",},
     {"name":"ObjConeAttack","order":2,"path":"objects/ObjConeAttack/ObjConeAttack.yy",},
     {"name":"ObjFade","order":1,"path":"objects/ObjFade/ObjFade.yy",},
     {"name":"ObjFrostAttack","order":1,"path":"objects/ObjFrostAttack/ObjFrostAttack.yy",},

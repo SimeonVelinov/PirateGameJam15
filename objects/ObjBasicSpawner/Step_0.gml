@@ -8,5 +8,5 @@ if (canSpawnRanged) {
 
 	instance_create_layer(random_range(0,1980),random_range(0,1500), "Enemies", ObjRangedShadow);
 	canSpawnRanged = false;
-	alarm[1] = 50;
+	alarm[1] = 600;
 }

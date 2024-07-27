@@ -33,7 +33,7 @@ function EnemyDamage(){
 			};
 	}
 	if place_meeting(x  + speed, y, ObjFrostAttack) {
-		shadowHealth -= 2;
+		shadowHealth -= 0.02;
 		speed = 2;
 		alarm[1] = 90;
 		if shadowHealth <= 0 {
@@ -42,7 +42,7 @@ function EnemyDamage(){
 	}	
 
 	if place_meeting(x, y + speed, ObjFrostAttack) {
-		shadowHealth -= 2;
+		shadowHealth -= 0.02;
 		speed = 2;
 		alarm[1] = 90;
 		if shadowHealth <= 0 {

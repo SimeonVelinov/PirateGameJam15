@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"ObjFrostAttack",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Buffs",
+  "eventList":[],
   "managed":true,
-  "name":"ObjFrostAttack",
+  "name":"Buffs",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player Attacks",
-    "path":"folders/Objects/Player Attacks.yy",
+    "name":"Player Parent",
+    "path":"folders/Objects/Player Parent.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"FrostRing",
-    "path":"sprites/FrostRing/FrostRing.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

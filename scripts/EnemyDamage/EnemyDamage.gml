@@ -16,7 +16,7 @@ function EnemyDamage(){
 	}
 
 	if place_meeting(x + speed, y, ObjConeAttack) {
-		shadowHealth -= 2;
+		shadowHealth -= 0.1;
 		shadowDOT = true;
 		alarm[0] = 120;
 		if shadowHealth <= 0 { 
@@ -25,7 +25,7 @@ function EnemyDamage(){
 	}
 
 	if place_meeting(x, y + speed, ObjConeAttack) {
-		shadowHealth -= 2;
+		shadowHealth -= 0.1;
 		shadowDOT = true;
 		alarm[0] = 120;
 		if shadowHealth <= 0 {

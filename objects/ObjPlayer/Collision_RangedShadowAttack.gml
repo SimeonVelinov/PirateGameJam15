@@ -19,3 +19,4 @@ if healthBoB >= healthBoBMax //When the BlackOutBar fills to 100,
 	audio_play_sound(Death1, 1, 0); //Plays Death1 over BGM without looping
 	roomFade(room_GameStart, 10, c_black);
 }
+// I hate myself for doing this

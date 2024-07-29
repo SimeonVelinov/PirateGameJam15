@@ -102,6 +102,7 @@
     {"id":{"name":"BasicShadowPLCHD","path":"sprites/BasicShadowPLCHD/BasicShadowPLCHD.yy",},},
     {"id":{"name":"Flame_cone_0000_Layer_7","path":"sprites/Flame_cone_0000_Layer_7/Flame_cone_0000_Layer_7.yy",},},
     {"id":{"name":"FrostRing","path":"sprites/FrostRing/FrostRing.yy",},},
+    {"id":{"name":"Map_V3","path":"sprites/Map_V3/Map_V3.yy",},},
     {"id":{"name":"ranged","path":"sprites/ranged/ranged.yy",},},
     {"id":{"name":"sBasicAttack","path":"sprites/sBasicAttack/sBasicAttack.yy",},},
     {"id":{"name":"sConeAttack","path":"sprites/sConeAttack/sConeAttack.yy",},},

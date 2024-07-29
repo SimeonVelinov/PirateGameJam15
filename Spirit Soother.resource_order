@@ -35,6 +35,7 @@
     {"name":"ShadowSound","order":1,"path":"sounds/ShadowSound/ShadowSound.yy",},
     {"name":"Flame_cone_0000_Layer_7","order":4,"path":"sprites/Flame_cone_0000_Layer_7/Flame_cone_0000_Layer_7.yy",},
     {"name":"FrostRing","order":3,"path":"sprites/FrostRing/FrostRing.yy",},
+    {"name":"Map_V3","order":1,"path":"sprites/Map_V3/Map_V3.yy",},
     {"name":"ranged","order":1,"path":"sprites/ranged/ranged.yy",},
     {"name":"sConeAttack","order":1,"path":"sprites/sConeAttack/sConeAttack.yy",},
     {"name":"sLightningAim","order":2,"path":"sprites/sLightningAim/sLightningAim.yy",},

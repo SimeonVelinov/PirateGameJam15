@@ -1,21 +1,22 @@
+persistent = true;
 //Behold! The worst inventory system ever created!
-orangeJuice = 0;
-blueberryJuice = 0;
-limeJuice = 0;
-strawberryJuice = 0;
-pineappleJuice = 0;
-tonic = 0;
+orangeJuice = 1;
+blueberryJuice = 1;
+limeJuice = 1;
+strawberryJuice = 1;
+raspberryJuice = 1;
+tonic = 1;
 
-ginger = 0;
-chillis = 0;
-cucumber = 0;
-mint = 0;
-olives = 0;
-elderflower = 0;
-honey = 0;
-grenadine = 0;
-tomato = 0;
+ginger = 1;
+chillis = 1;
+cucumber = 1;
+mint = 1;
+olives = 1;
+elderflower = 1;
+honey = 1;
+grenadine = 1;
+tomato = 1;
 
-genericSpirit = 0;
-lightSpirit = 0;
-arcaneSpirit = 0;
+genericSpirit = 1;
+lightSpirit = 1;
+arcaneSpirit = 1;

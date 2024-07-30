@@ -9,8 +9,8 @@
   "name":"obj_ButtonParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "name":"UIButtons",
+    "path":"folders/Objects/Buttons/UIButtons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

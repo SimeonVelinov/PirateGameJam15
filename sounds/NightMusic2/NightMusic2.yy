@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"NightMusic",
+  "%Name":"NightMusic2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":78.419586,
-  "name":"NightMusic",
+  "name":"NightMusic2",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"NightMusic.mp3",
+  "soundFile":"NightMusic2.mp3",
   "type":0,
   "volume":1.0,
 }

@@ -14,7 +14,7 @@ function playerConeAttack() {
 	if (keyCone && canCone) {
 		instance_create_layer(x, y, "Player", ObjConeAttack);
 		canCone = false;
-		alarm[1] = 45;
+		alarm[1] = 240; //duration of the cone attack
 	}
 }
 

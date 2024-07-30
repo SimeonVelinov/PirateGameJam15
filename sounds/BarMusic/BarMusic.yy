@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":83.51346,
+  "duration":33.93304,
   "name":"BarMusic",
   "parent":{
     "name":"Sounds",

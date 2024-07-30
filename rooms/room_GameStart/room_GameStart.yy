@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"room_GameStart",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/room_GameStart/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -10,6 +10,7 @@
     {"name":"inst_5ED80792","path":"rooms/room_GameStart/room_GameStart.yy",},
     {"name":"inst_40299F81","path":"rooms/room_GameStart/room_GameStart.yy",},
     {"name":"inst_4447C45F","path":"rooms/room_GameStart/room_GameStart.yy",},
+    {"name":"inst_205C7093","path":"rooms/room_GameStart/room_GameStart.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":128.0,},
         {"$GMRInstance":"v1","%Name":"inst_40299F81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40299F81","objectId":{"name":"Inventory","path":"objects/Inventory/Inventory.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_4447C45F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4447C45F","objectId":{"name":"Buffs","path":"objects/Buffs/Buffs.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
+        {"$GMRInstance":"v1","%Name":"inst_205C7093","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_205C7093","objectId":{"name":"ObjMainMenuMusic","path":"objects/ObjMainMenuMusic/ObjMainMenuMusic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_GameStartSketch","path":"sprites/spr_GameStartSketch/spr_GameStartSketch.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

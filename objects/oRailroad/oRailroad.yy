@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRailroad",
-    "path":"sprites/sRailroad/sRailroad.yy",
+    "name":"sRailroadOld",
+    "path":"sprites/sRailroadOld/sRailroadOld.yy",
   },
   "spriteMaskId":null,
   "visible":true,

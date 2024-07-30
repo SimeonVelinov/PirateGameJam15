@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"ObjSolidWall",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"ObjSolidWall",
   "overriddenProperties":[],
@@ -9,10 +11,7 @@
     "name":"Walls Parent",
     "path":"folders/Objects/Walls Parent.yy",
   },
-  "parentObjectId":{
-    "name":"ObjOWall",
-    "path":"objects/ObjOWall/ObjOWall.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

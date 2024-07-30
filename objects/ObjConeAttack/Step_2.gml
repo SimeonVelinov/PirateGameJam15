@@ -4,3 +4,4 @@ if ObjPlayer.alarm[1] <= 10 {
 	ObjPlayer.canMove = true;
 	ObjPlayer.canShoot = true;
 }
+depth = -y;

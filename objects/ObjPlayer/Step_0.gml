@@ -3,3 +3,4 @@ playerAiming();
 playerBasicAttack();
 playerConeAttack();
 playerFrostAttack();
+playerArcaneAttack();

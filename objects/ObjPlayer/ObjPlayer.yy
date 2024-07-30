@@ -41,8 +41,8 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":{
-    "name":"sPlayerDown",
-    "path":"sprites/sPlayerDown/sPlayerDown.yy",
+    "name":"sPlayerAll",
+    "path":"sprites/sPlayerAll/sPlayerAll.yy",
   },
   "visible":true,
 }

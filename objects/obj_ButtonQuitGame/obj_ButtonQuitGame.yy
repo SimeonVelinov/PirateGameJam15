@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ButtonParent","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"GIVE UP",},
   ],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "name":"UIButtons",
+    "path":"folders/Objects/Buttons/UIButtons.yy",
   },
   "parentObjectId":{
     "name":"obj_ButtonParent",

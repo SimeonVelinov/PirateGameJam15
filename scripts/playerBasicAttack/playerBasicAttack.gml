@@ -25,7 +25,7 @@ function playerFrostAttack()
 	{
 		instance_create_layer(x, y, "Player", ObjFrostAttack);
 		canFrost = false;
-		alarm[2] = 30;
+		alarm[2] = 300;
 	}
 }
 
@@ -35,7 +35,7 @@ function playerArcaneAttack() {
 	{
 		instance_create_layer(x, y, "Player", ObjArcaneAttack);
 		canShoot = false;
-		alarm[0] = 120;
+		alarm[0] = 600;
 		if place_meeting(x + speed, y + speed, ObjBasicShadow)
 		or place_meeting(x + speed, y + speed, ObjRangedShadow)
 		or place_meeting(x + speed, y + speed, ObjSolidWall)

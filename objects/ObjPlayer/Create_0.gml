@@ -15,8 +15,10 @@
 	healthBoBwidth = 32;
 	healthBoBheight = 128; 
 	//Drawn in GUI (which is the screen position)
-	healthBoB_x = 32;
-	healthBoB_y = 448;
+	//healthBoB_x = 32; //commented out to try to fix UI
+	//healthBoB_y = 448; //commented out to try to fix UI
+	healthBoB_x = camera_get_view_width((view_camera[0])/2);
+	healthBoB_y = camera_get_view_height((view_camera[0])/2);
 	
 	iFrames = false; 
 

@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"EnemyBasicAttack",
+  "%Name":"ObjLamp",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"EnemyBasicAttack",
+  "name":"ObjLamp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Lamps",
+    "path":"folders/Objects/Lamps.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ObjSolidWall",
+    "path":"objects/ObjSolidWall/ObjSolidWall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEnemyBasicAttack",
-    "path":"sprites/sEnemyBasicAttack/sEnemyBasicAttack.yy",
+    "name":"sprLamp",
+    "path":"sprites/sprLamp/sprLamp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

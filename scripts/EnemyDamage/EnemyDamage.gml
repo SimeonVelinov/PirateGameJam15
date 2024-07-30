@@ -49,4 +49,13 @@ function EnemyDamage(){
 			instance_destroy()
 			};
 	}	
+	
+		if place_meeting(x, y, ObjArcaneExplosion) {
+		shadowHealth -= 0.2;
+		//speed = 2;
+		//alarm[1] = 90;
+		if shadowHealth <= 0 {
+			instance_destroy()
+			};
+	}		
 }

@@ -17,10 +17,10 @@ spd = moveSpd * inputLevel;
 	xspd = lengthdir_x(spd, moveDir);
 	yspd = lengthdir_y(spd, moveDir);
 	
-if place_meeting(x + xspd, y, ObjOWall) {
+if place_meeting(x + xspd, y, ObjSolidWall) {
 	xspd = 0;
 }
-if place_meeting(x, y + yspd, ObjOWall)	{
+if place_meeting(x, y + yspd, ObjSolidWall)	{
 	yspd = 0;
 }
 
@@ -29,5 +29,5 @@ if ObjPlayer.canMove {
 	y += yspd;
 }
 	
-	depth = -bbox_bottom;
+	//*depth = -bbox_bottom;
 }

@@ -14,6 +14,6 @@ if canFire {
 		if (canFire) {
 		instance_create_layer(x, y, "Instances", RangedShadowAttack);
 		canFire = false;
-		alarm[2] = 40;
+		alarm[2] = 180;
 	}
 };

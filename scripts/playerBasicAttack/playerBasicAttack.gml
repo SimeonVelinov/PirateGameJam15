@@ -28,3 +28,27 @@ function playerFrostAttack()
 		alarm[2] = 30;
 	}
 }
+
+function playerArcaneAttack() {
+	keyShoot = keyboard_check_pressed(ord("B")) || gamepad_button_check_pressed(0, gp_shoulderlb)
+	if (keyShoot && canShoot)
+	{
+		instance_create_layer(x, y, "Instances", ObjArcaneAttack);
+		canShoot = false;
+		alarm[0] = 120;
+		if place_meeting(x + speed, y + speed, ObjBasicShadow)
+		or place_meeting(x + speed, y + speed, ObjRangedShadow)
+		or place_meeting(x + speed, y + speed, ObjSolidWall)
+		//or place_meeting(x + speed, y + speed, RangedShadowAttack)
+		{
+			instance_destroy(ObjArcaneAttack);
+			arcaneAttackExplosion();
+		}
+	}
+}
+
+function arcaneAttackExplosion()
+{
+	animate = true;
+	instance_create_layer(x, y, "Instances", ObjArcaneExplosion);
+}

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBasicAttack",
-    "path":"sprites/sBasicAttack/sBasicAttack.yy",
+    "name":"sEnemyBasicAttack",
+    "path":"sprites/sEnemyBasicAttack/sEnemyBasicAttack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

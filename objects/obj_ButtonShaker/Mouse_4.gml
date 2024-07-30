@@ -72,6 +72,3 @@ function enableSpirits(element)  {
 event_inherited();
 array_foreach(additives, enableAdditive)
 array_foreach(spirits, enableSpirits)
-
-show_message(additives);
-show_message(additives)

@@ -5,3 +5,4 @@ if ((gamepad_axis_value(0, gp_axisrh) != 0) || (gamepad_axis_value (0, gp_axisrv
 		+ irandom_range(2, -2);
 	}
 image_angle = direction;
+audio_play

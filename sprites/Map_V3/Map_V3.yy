@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Spirit Soother",
-    "path":"Spirit Soother.yyp",
+    "name":"Dump Folder",
+    "path":"folders/Sprites/Dump Folder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

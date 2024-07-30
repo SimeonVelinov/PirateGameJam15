@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sound_Hiccup1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.695057,
+  "name":"Sound_Hiccup1",
+  "parent":{
+    "name":"Hiccups",
+    "path":"folders/Sounds/Hiccups.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sound_Hiccup1.mp3",
+  "type":0,
+  "volume":1.0,
+}

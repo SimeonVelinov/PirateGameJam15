@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":6,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"BlackOutBar",
+    "path":"folders/Sprites/UI/BlackOutBar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

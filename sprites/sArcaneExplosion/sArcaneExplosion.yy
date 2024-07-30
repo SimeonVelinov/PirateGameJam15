@@ -20,6 +20,8 @@
     {"$GMSpriteFrame":"","%Name":"9c238d0f-fa26-40dc-b886-59c1d8ec6d3e","name":"9c238d0f-fa26-40dc-b886-59c1d8ec6d3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"f95bc2eb-d05e-467e-a833-a40a3b81e05b","name":"f95bc2eb-d05e-467e-a833-a40a3b81e05b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"d9c26f51-92d6-4a95-a1e3-f87bdbcf9390","name":"d9c26f51-92d6-4a95-a1e3-f87bdbcf9390","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"83df771f-9650-4d31-a286-d30f6ea9315e","name":"83df771f-9650-4d31-a286-d30f6ea9315e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a0f8eb23-83c3-4a0d-984e-1a3749630f23","name":"a0f8eb23-83c3-4a0d-984e-1a3749630f23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -56,7 +58,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":8.0,
+    "length":10.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -66,7 +68,7 @@
     },
     "name":"sArcaneExplosion",
     "playback":1,
-    "playbackSpeed":12.0,
+    "playbackSpeed":13.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -99,6 +101,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d9c26f51-92d6-4a95-a1e3-f87bdbcf9390","path":"sprites/sArcaneExplosion/sArcaneExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7e90ea2f-8fa5-412d-9750-40c7f21b7c0f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83df771f-9650-4d31-a286-d30f6ea9315e","path":"sprites/sArcaneExplosion/sArcaneExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9549e754-81db-4962-a3e1-eaf1e02e7b80","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0f8eb23-83c3-4a0d-984e-1a3749630f23","path":"sprites/sArcaneExplosion/sArcaneExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e830f215-35b2-4c1f-af1f-672c93f2d902","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

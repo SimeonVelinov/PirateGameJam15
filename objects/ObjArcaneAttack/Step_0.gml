@@ -6,4 +6,6 @@ or place_meeting(x + speed, y + speed, ObjSolidWall)
 		instance_destroy(ObjArcaneAttack);
 		arcaneAttackExplosion();
 	}
+	
+
 //depth = -bbox_top;

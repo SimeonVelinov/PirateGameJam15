@@ -6,4 +6,7 @@ if ((gamepad_axis_value(0, gp_axisrh) != 0) || (gamepad_axis_value (0, gp_axisrv
 	}
 image_angle = direction;
 
+audio_play_sound(ShadowSound, 1, 0);
+
+
 //depth = -bbox_top;

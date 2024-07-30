@@ -5,3 +5,5 @@ if ((gamepad_axis_value(0, gp_axisrh) != 0) || (gamepad_axis_value (0, gp_axisrv
 		+ irandom_range(2, -2);
 	}
 image_angle = direction;
+audio_sound_set_track_position(ArcaneExplosionSound, 1.20);
+audio_play_sound(ArcaneExplosionSound, 0, 0);

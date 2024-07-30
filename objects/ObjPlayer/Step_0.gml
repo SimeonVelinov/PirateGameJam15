@@ -4,3 +4,4 @@ playerBasicAttack();
 playerConeAttack();
 playerFrostAttack();
 playerArcaneAttack();
+playerZoneEnter();

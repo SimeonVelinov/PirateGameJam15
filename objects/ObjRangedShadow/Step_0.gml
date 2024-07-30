@@ -12,7 +12,7 @@ if !audio_is_playing(ShadowSound) {
 
 if canFire {
 		if (canFire) {
-		instance_create_layer(x, y, "Instances", RangedShadowAttack);
+		instance_create_layer(x, y, "Enemies", RangedShadowAttack);
 		canFire = false;
 		alarm[2] = 180;
 	}

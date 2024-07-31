@@ -7,18 +7,20 @@
 	canCone = true;
 	canMove = true;
 	canFrost = true;
+	canBomb = true;
 	
-//Black out Bar UI
+//Black out Bar (BoB) UI
 	healthBoBMax = 100;
 	healthBoB = 0;
 	
 	healthBoBwidth = 32;
 	healthBoBheight = 128; 
-	//Drawn in GUI (which is the screen position)
-	//healthBoB_x = 32; //commented out to try to fix UI
-	//healthBoB_y = 448; //commented out to try to fix UI
-	healthBoB_x = camera_get_view_width((view_camera[0])/2);
-	healthBoB_y = camera_get_view_height((view_camera[0])/2);
+	//Drawn in GUI (which is the screen position, not the room position).
+	healthBoB_x = 32; //Used to draw BoB 32 pixels away from the left side of the screen.
+	healthBoB_y = 750; //Used to draw BoB 712 pixels down from the top of the screen.
+	//Used for draw_set_gui to ensure consistency of BoB's position when browser size changes.
+	bwidth = browser_width;
+	bheight = browser_height;
 	
 	iFrames = false; 
 

@@ -4,7 +4,7 @@ function playerBasicAttack() {
 	if (keyShoot && canShoot) {
 		instance_create_layer(x, y, "Player", ObjBasicAttack);
 		canShoot = false;
-		alarm[0] = 120;
+		alarm[0] = 120; //Cooldown of the Lightning Attack.
 	}
 }
 
@@ -14,7 +14,7 @@ function playerConeAttack() {
 	if (keyCone && canCone) {
 		instance_create_layer(x, y, "Player", ObjConeAttack);
 		canCone = false;
-		alarm[1] = 45;
+		alarm[1] = 240; //Cooldown of the Fire Attack.
 	}
 }
 
@@ -25,28 +25,28 @@ function playerFrostAttack()
 	{
 		instance_create_layer(x, y, "Player", ObjFrostAttack);
 		canFrost = false;
-		alarm[2] = 300;
+		alarm[2] = 300; //Cooldown of the Frost Attack.
 	}
 }
 
 function playerArcaneAttack() {
 	keyShoot = keyboard_check_pressed(ord("B")) || gamepad_button_check_pressed(0, gp_shoulderlb)
-	if (keyShoot && canShoot)
+	if (keyShoot && canBomb)
 	{
 		instance_create_layer(x, y, "Player", ObjArcaneAttack);
-		canShoot = false;
-		alarm[0] = 600;
+		canBomb = false;
+		alarm[4] = 600; //Cooldown of the Arcane Attack.
+		//When the Arcane Attack collides,
 		if place_meeting(x + speed, y + speed, ObjBasicShadow)
 		or place_meeting(x + speed, y + speed, ObjRangedShadow)
 		or place_meeting(x + speed, y + speed, ObjSolidWall)
 		//or place_meeting(x + speed, y + speed, RangedShadowAttack)
 		{
-			instance_destroy(ObjArcaneAttack);
-			arcaneAttackExplosion();
+			instance_destroy(ObjArcaneAttack); 
+			arcaneAttackExplosion(); //Creates the Arcane Explosion.
 		}
 	}
 }
-
 function arcaneAttackExplosion()
 {
 	animate = true;

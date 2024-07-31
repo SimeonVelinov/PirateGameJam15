@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":65.67183,
+  "duration":78.419586,
   "name":"NightMusic",
   "parent":{
     "name":"Sounds",

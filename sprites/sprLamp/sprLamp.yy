@@ -27,7 +27,7 @@
   ],
   "name":"sprLamp",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Lamps",
     "path":"folders/Sprites/Object Layer/Lamps.yy",
@@ -92,7 +92,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":74,
-    "yorigin":335,
+    "yorigin":610,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

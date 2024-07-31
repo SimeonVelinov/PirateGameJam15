@@ -20,5 +20,3 @@ else if (obj_ButtonShaker.juiceThree == false) {
 	obj_ButtonShaker.additiveAvailable+=2;
 	Inventory.strawberryJuice--;
 }
-
-show_message(Inventory.strawberryJuice)

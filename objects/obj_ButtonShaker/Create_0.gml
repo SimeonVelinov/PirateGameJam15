@@ -1,10 +1,6 @@
-juiceOne = "";
-juiceTwo = "";
-juiceThree = "";
-
-spirits = ["", "", ""];
-
-additives = ["", "", "", "", "", "", "", ""];
-
+mixers = [];
+spirits = [];
+additives = [];
 spiritAvailable = 0;
 additiveAvailable = 0;
+alcoholLevel = 0;

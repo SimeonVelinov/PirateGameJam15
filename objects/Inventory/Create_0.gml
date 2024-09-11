@@ -1,5 +1,7 @@
 persistent = true;
 //Behold! The worst inventory system ever created!
+inventory = [];
+
 orangeJuice = 1;
 blueberryJuice = 1;
 limeJuice = 1;

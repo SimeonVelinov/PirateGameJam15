@@ -10,14 +10,14 @@
 	canBomb = true;
 	
 //Black out Bar (BoB) UI
-	healthBoBMax = 100;
-	healthBoB = 0;
+	healthBoBMax = Health.healthMax;
+	healthBoB = Health.healthCurrent;
 	
 	healthBoBwidth = 32;
 	healthBoBheight = 128; 
 	//Drawn in GUI (which is the screen position, not the room position).
 	healthBoB_x = 32; //Used to draw BoB 32 pixels away from the left side of the screen.
-	healthBoB_y = 750; //Used to draw BoB 712 pixels down from the top of the screen.
+	healthBoB_y = 150; //Used to draw BoB 150 pixels down from the top of the screen.
 	//Used for draw_set_gui to ensure consistency of BoB's position when browser size changes.
 	bwidth = browser_width;
 	bheight = browser_height;

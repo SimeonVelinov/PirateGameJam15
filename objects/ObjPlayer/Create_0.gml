@@ -10,8 +10,8 @@
 	canBomb = true;
 	
 //Black out Bar (BoB) UI
-	healthBoBMax = Health.healthMax;
-	healthBoB = Health.healthCurrent;
+	healthBoBMax = 100;
+	healthBoB = 0;
 	
 	healthBoBwidth = 32;
 	healthBoBheight = 128; 

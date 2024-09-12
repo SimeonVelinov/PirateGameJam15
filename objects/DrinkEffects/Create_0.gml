@@ -1,0 +1,1 @@
+healthPenalty = 0;

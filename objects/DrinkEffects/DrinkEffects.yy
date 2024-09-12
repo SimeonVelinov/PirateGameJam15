@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Health",
+  "%Name":"DrinkEffects",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Health",
+  "name":"DrinkEffects",
   "overriddenProperties":[],
   "parent":{
     "name":"Inventory",

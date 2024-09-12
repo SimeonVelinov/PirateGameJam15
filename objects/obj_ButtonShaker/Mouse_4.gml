@@ -1,4 +1,5 @@
 // Inherit the parent event
+MixCocktail()
 function enableAdditive(element)  {
 	switch (element) {
 	case "grenadine":
@@ -70,5 +71,5 @@ function enableSpirits(element)  {
 }
 
 event_inherited();
-array_foreach(additives, enableAdditive)
-array_foreach(spirits, enableSpirits)
+//array_foreach(additives, enableAdditive)
+//array_foreach(spirits, enableSpirits)

@@ -31,8 +31,6 @@ function ShakerAddItem(item){
 if (addItem == true) {
 	array_push(obj_ButtonShaker.shakerContents[item.itemClass], item);
 	Items.itemList[item.itemClass][item.itemId].itemQty -= 1;
-	if Items.itemList[item.itemClass][item.itemId].itemQty <= 0 {
-		instance_destroy();
-	}
+	DestroyItem(item);
 }
 }

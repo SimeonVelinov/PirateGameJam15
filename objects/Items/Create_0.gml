@@ -171,6 +171,6 @@ itemList = [ [
 	itemType: spiritType.Arcane,
 	alcohol: 17,
 	valueBonus: 70,
-	itemQty: 3
+	itemQty: 6
 }
 ] ];

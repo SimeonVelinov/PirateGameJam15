@@ -8,11 +8,11 @@
   "instanceCreationOrder":[
     {"name":"inst_D4310B8","path":"rooms/room_GameStart/room_GameStart.yy",},
     {"name":"inst_5ED80792","path":"rooms/room_GameStart/room_GameStart.yy",},
-    {"name":"inst_4447C45F","path":"rooms/room_GameStart/room_GameStart.yy",},
     {"name":"inst_205C7093","path":"rooms/room_GameStart/room_GameStart.yy",},
     {"name":"inst_4698DC51","path":"rooms/room_GameStart/room_GameStart.yy",},
-    {"name":"inst_635018AB","path":"rooms/room_GameStart/room_GameStart.yy",},
+    {"name":"inst_1D7D7A16","path":"rooms/room_GameStart/room_GameStart.yy",},
     {"name":"inst_615A9655","path":"rooms/room_GameStart/room_GameStart.yy",},
+    {"name":"inst_4447C45F","path":"rooms/room_GameStart/room_GameStart.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -21,8 +21,8 @@
         {"$GMRInstance":"v1","%Name":"inst_5ED80792","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5ED80792","objectId":{"name":"obj_ButtonStartGame","path":"objects/obj_ButtonStartGame/obj_ButtonStartGame.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ButtonParent","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"NEW GAME",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":128.0,},
-        {"$GMRInstance":"v1","%Name":"inst_635018AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_635018AB","objectId":{"name":"Items","path":"objects/Items/Items.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":64.0,},
-        {"$GMRInstance":"v1","%Name":"inst_615A9655","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_615A9655","objectId":{"name":"Health","path":"objects/Health/Health.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1D7D7A16","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D7D7A16","objectId":{"name":"Items","path":"objects/Items/Items.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_615A9655","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_615A9655","objectId":{"name":"DrinkEffects","path":"objects/DrinkEffects/DrinkEffects.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":96.0,},
         {"$GMRInstance":"v1","%Name":"inst_4447C45F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4447C45F","objectId":{"name":"Buffs","path":"objects/Buffs/Buffs.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_205C7093","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_205C7093","objectId":{"name":"ObjMainMenuMusic","path":"objects/ObjMainMenuMusic/ObjMainMenuMusic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":64.0,},
         {"$GMRInstance":"v1","%Name":"inst_4698DC51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4698DC51","objectId":{"name":"obj_ButtonOptions","path":"objects/obj_ButtonOptions/obj_ButtonOptions.yy",},"properties":[

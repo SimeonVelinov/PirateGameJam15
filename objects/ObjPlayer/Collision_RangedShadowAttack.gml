@@ -8,7 +8,7 @@ if healthBoB <= 100 and iFrames == false
 if healthBoB >= healthBoBMax //When the BlackOutBar fills to 100,
 {
 	//its still better than Undertales
-	instance_deactivate_all(true);
+	//instance_deactivate_all(true);
 	layer_destroy_instances("Player");
 	layer_destroy_instances("Enemies");	
 	//yes we know

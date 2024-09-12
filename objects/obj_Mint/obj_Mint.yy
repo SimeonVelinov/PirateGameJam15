@@ -3,6 +3,7 @@
   "%Name":"obj_Mint",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Mint",
@@ -12,8 +13,8 @@
     "path":"folders/Objects/Buttons/AdditiveButtons.yy",
   },
   "parentObjectId":{
-    "name":"obj_ButtonParent",
-    "path":"objects/obj_ButtonParent/obj_ButtonParent.yy",
+    "name":"obj_ItemButtonParent",
+    "path":"objects/obj_ItemButtonParent/obj_ItemButtonParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

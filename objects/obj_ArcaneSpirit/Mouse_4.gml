@@ -1,3 +1,3 @@
 // Inherit the parent event
 event_inherited();
-AddSpirit(Items.spiritList[2]);
+ShakerAddItem(Items.itemList[classType.Spirit][self.itemId]);

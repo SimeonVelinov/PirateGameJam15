@@ -1,2 +1,3 @@
 // Inherit the parent event
-AddMixer(Items.mixerList[0]);
+event_inherited();
+ShakerAddItem(Items.itemList[classType.Mixer][self.itemId]);

@@ -2,20 +2,20 @@ function DebugDrawInfoMixer(itemInst, posX, posY){
 draw_text (posX, posY, itemInst.itemName);
 draw_text (posX + 180, posY, "qty: " + string(itemInst.itemQty));
 draw_text (posX + 280, posY, "id: " + string(itemInst.itemId));
-draw_text (posX + 380, posY, "type: " + Items.mixerType[itemInst.itemType]);
+draw_text (posX + 380, posY, "price: " + string(itemInst.itemPrice));
 }
 function DebugDrawInfoAdditive(itemInst, posX, posY){		
 draw_text (posX, posY, itemInst.itemName);
 draw_text (posX + 180, posY, "qty: " + string(itemInst.itemQty));
 draw_text (posX + 280, posY, "id: " + string(itemInst.itemId));
-draw_text (posX + 380, posY, "type: " + Items.additiveType[itemInst.itemType]);
+draw_text (posX + 380, posY, "price: " + string(itemInst.itemPrice));
 }
 function DebugDrawInfoSpirit(itemInst, posX, posY){		
 draw_text (posX, posY, itemInst.itemName);
 draw_text (posX + 180, posY, "qty: " + string(itemInst.itemQty));
 draw_text (posX + 520, posY, "alc: " + string(itemInst.alcohol));
 draw_text (posX + 280, posY, "id: " + string(itemInst.itemId));
-draw_text (posX + 380, posY, "type: " + Items.spiritType[itemInst.itemType]);
+draw_text (posX + 380, posY, "bonus: " + string(itemInst.valueBonus));
 }
 function DebugDrawInfoShaker(){
 draw_text (20, 20, string(obj_ButtonShaker.spiritAvailable));

@@ -1,18 +1,18 @@
 persistent = true;
 posX = 20; posY = 0;
 
-for (var i = 0; i < array_length(mixerList); i++)
+for (var i = 0; i < array_length(itemList[0]); i++)
 {
-	DebugDrawInfoMixer(mixerList[i], posX, posY);
+	DebugDrawInfoMixer(itemList[classType.Mixer][i], posX, posY);
 	posY += 20;
 }
-for (var i = 0; i < array_length(additiveList); i++)
+for (var i = 0; i < array_length(itemList[1]); i++)
 {
-	DebugDrawInfoAdditive(additiveList[i], posX, posY);
+	DebugDrawInfoAdditive(itemList[classType.Additive][i], posX, posY);
 	posY += 20;
 }
-for (var i = 0; i < array_length(spiritList); i++)
+for (var i = 0; i < array_length(itemList[2]); i++)
 {
-	DebugDrawInfoSpirit(spiritList[i], posX, posY);
+	DebugDrawInfoSpirit(itemList[classType.Spirit][i], posX, posY);
 	posY += 20;
 }

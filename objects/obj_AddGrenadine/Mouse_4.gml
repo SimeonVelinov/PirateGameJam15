@@ -1,3 +1,3 @@
 // Inherit the parent event
 event_inherited();
-AddAdditive(Items.additiveList[7]);
+ShakerAddItem(Items.itemList[classType.Additive][self.itemId]);

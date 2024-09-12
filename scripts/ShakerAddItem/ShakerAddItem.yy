@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"AddAdditive",
+  "%Name":"ShakerAddItem",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"AddAdditive",
+  "name":"ShakerAddItem",
   "parent":{
     "name":"Inventory Scripts",
     "path":"folders/Scripts/Inventory Scripts.yy",

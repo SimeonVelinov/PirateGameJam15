@@ -1,121 +1,176 @@
 persistent = true;
-mixerType = ["empty", "Light", "Medium", "Heavy"];
-additiveType = ["Fire", "Frost", "Lightning", "Generic"];
-spiritType = ["Generic", "Light", "Arcane"];
-mixerList = [
+enum classType {
+	Mixer,
+	Additive,
+    Spirit
+}
+enum mixerType {
+	empty,
+	Light,
+	Medium,
+	Heavy
+}
+enum additiveType {
+		Fire,
+		Frost,
+		Lightning,
+	    Generic
+	}
+enum spiritType {
+	Generic,
+	Light,
+	Arcane
+}
+itemList = [ [
 {
 	itemId: 0,
 	itemName: "Orange Juice",
-	itemType: 1,
-	itemQty: 1
+	itemClass: classType.Mixer,
+	itemType: mixerType.Light,
+	itemPrice: 10,
+	itemQty: 3
 },
 {
 	itemId: 1,
 	itemName: "Blueberry Juice",
-	itemType: 1,
-	itemQty: 1
+	itemClass: classType.Mixer,
+	itemType: mixerType.Light,
+	itemPrice: 10,
+	itemQty: 3
 },
 {
 	itemId: 2,
 	itemName: "Lime Juice",
-	itemType: 2,
-	itemQty: 1
+	itemClass: classType.Mixer,
+	itemType: mixerType.Medium,
+	itemPrice: 20,
+	itemQty: 3
 },
 {
 	itemId: 3,
 	itemName: "Strawberry Juice",
-	itemType: 2,
-	itemQty: 255
+	itemClass: classType.Mixer,
+	itemType: mixerType.Medium,
+	itemPrice: 20,
+	itemQty: 3
 },
 {
 	itemId: 4,
 	itemName: "Tonic Water",
-	itemType: 3,
-	itemQty: 255
+	itemClass: classType.Mixer,
+	itemType: mixerType.Heavy,
+	itemPrice: 40,
+	itemQty: 3
 },
 {
 	itemId: 5,
 	itemName: "Raspberry Juice",
-	itemType: 3,
-	itemQty: 255
+	itemClass: classType.Mixer,
+	itemType: mixerType.Heavy,
+	itemPrice: 40,
+	itemQty: 3
 }
-];
-additiveList = [
+],
+[
 {
 	itemId: 0,
 	itemName: "Ginger",
-	itemType: 0,
-	itemQty: 255
+	itemClass: classType.Additive,
+	itemType: additiveType.Fire,
+	itemPrice: 30,
+	itemQty: 9
 },
 {
 	itemId: 1,
 	itemName: "Hot Peppers",
-	itemType: 0,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Fire,
+	itemPrice: 50,
+	itemQty: 9
 },
 {
 	itemId: 2,
 	itemName: "Cucumber",
-	itemType: 1,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Frost,
+	itemPrice: 50,
+	itemQty: 9
 },
 {
 	itemId: 3,
 	itemName: "Mint",
-	itemType: 1,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Frost,
+	itemPrice: 50,
+	itemQty: 9
 },
 {
 	itemId: 4,
 	itemName: "Olives",
-	itemType: 2,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Lightning,
+	itemPrice: 30,
+	itemQty: 9
 },
 {
 	itemId: 5,
 	itemName: "Elderflower",
-	itemType: 2,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Lightning,
+	itemPrice: 30,
+	itemQty: 9
 },
 {
 	itemId: 6,
 	itemName: "Honey",
-	itemType: 3,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Generic,
+	itemPrice: 20,
+	itemQty: 9
 },
 {
 	itemId: 7,
 	itemName: "Grenadine",
-	itemType: 3,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Generic,
+	itemPrice: 50,
+	itemQty: 9
 },
 {
 	itemId: 8,
 	itemName: "Tomato",
-	itemType: 3,
-	itemQty: 0
+	itemClass: classType.Additive,
+	itemType: additiveType.Generic,
+	itemPrice: 70,
+	itemQty: 9
 },
-];
-spiritList = [
+],
+[
 {
 	itemId: 0,
 	itemName: "Generic",
+	itemClass: classType.Spirit,
+	itemType: spiritType.Generic,
 	alcohol: 10,
-	itemType: 0,
-	itemQty: 1
+	valueBonus: 40,
+	itemQty: 3
 },
 {
 	itemId: 1,
-	itemName: "Light",
+	itemName: "Light",	
+	itemClass: classType.Spirit,
+	itemType: spiritType.Light,
 	alcohol: 15,
-	itemType: 1,
-	itemQty: 1
+	valueBonus: 55,
+	itemQty: 3
 },
 {
 	itemId: 2,
-	itemName: "Arcane",
+	itemName: "Arcane",	
+	itemClass: classType.Spirit,
+	itemType: spiritType.Arcane,
 	alcohol: 17,
-	itemType: 2,
-	itemQty: 1
+	valueBonus: 70,
+	itemQty: 3
 }
-];
+] ];

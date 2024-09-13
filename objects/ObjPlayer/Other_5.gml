@@ -1,0 +1,1 @@
+if room_get_name(room) == "room_night" Items.moneyVault += 100;

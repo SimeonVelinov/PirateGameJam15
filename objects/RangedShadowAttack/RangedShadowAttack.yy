@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy Attacks",
-    "path":"folders/Objects/Enemy Attacks.yy",
+    "path":"folders/Objects/Attacks/Enemy Attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

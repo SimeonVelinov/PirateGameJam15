@@ -10,9 +10,6 @@
 	canBomb = true;
 	
 //Black out Bar (BoB) UI
-	healthBoBMax = 100;
-	healthBoB = 0;
-	
 	healthBoBwidth = 32;
 	healthBoBheight = 128; 
 	//Drawn in GUI (which is the screen position, not the room position).

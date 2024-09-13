@@ -1,9 +1,6 @@
 function MixCocktail(){
-DrinkEffects.healthPenalty += obj_ButtonShaker.alcoholLevel;
-if (DrinkEffects.healthPenalty >= 100) DrinkEffects.healthPenalty = 99;
-shakerContents = [[], [], []];
-spiritAvailable = 0;
-additiveAvailable = 0;
-alcoholLevel = 0;
-resellPrice = 0;
+DrinkEffects.healthPenalty += (ShakerContents.alcoholLevel - ShakerContents.tomatoCount * ShakerContents.spiritCount * 4);
+if (DrinkEffects.healthPenalty < 0) DrinkEffects.healthPenalty = 0;
+if (DrinkEffects.healthPenalty >= PlayerStats.healthBoBMax) DrinkEffects.healthPenalty = PlayerStats.healthBoBMax - 1;
+InitShaker();
 }

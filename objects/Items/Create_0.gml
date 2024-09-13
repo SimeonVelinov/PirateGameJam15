@@ -28,7 +28,7 @@ itemList = [ [
 	itemClass: classType.Mixer,
 	itemType: mixerType.Light,
 	itemPrice: 10,
-	itemQty: 3
+	itemQty: 0
 },
 {
 	itemId: 1,
@@ -36,7 +36,7 @@ itemList = [ [
 	itemClass: classType.Mixer,
 	itemType: mixerType.Light,
 	itemPrice: 10,
-	itemQty: 3
+	itemQty: 0
 },
 {
 	itemId: 2,
@@ -44,7 +44,7 @@ itemList = [ [
 	itemClass: classType.Mixer,
 	itemType: mixerType.Medium,
 	itemPrice: 20,
-	itemQty: 3
+	itemQty: 0
 },
 {
 	itemId: 3,
@@ -52,7 +52,7 @@ itemList = [ [
 	itemClass: classType.Mixer,
 	itemType: mixerType.Medium,
 	itemPrice: 20,
-	itemQty: 3
+	itemQty: 0
 },
 {
 	itemId: 4,
@@ -60,7 +60,7 @@ itemList = [ [
 	itemClass: classType.Mixer,
 	itemType: mixerType.Heavy,
 	itemPrice: 40,
-	itemQty: 3
+	itemQty: 0
 },
 {
 	itemId: 5,
@@ -68,7 +68,7 @@ itemList = [ [
 	itemClass: classType.Mixer,
 	itemType: mixerType.Heavy,
 	itemPrice: 40,
-	itemQty: 3
+	itemQty: 0
 }
 ],
 [
@@ -78,7 +78,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Fire,
 	itemPrice: 30,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 1,
@@ -86,7 +86,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Fire,
 	itemPrice: 50,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 2,
@@ -94,7 +94,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Frost,
 	itemPrice: 50,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 3,
@@ -102,7 +102,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Frost,
 	itemPrice: 50,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 4,
@@ -110,7 +110,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Lightning,
 	itemPrice: 30,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 5,
@@ -118,7 +118,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Lightning,
 	itemPrice: 30,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 6,
@@ -126,7 +126,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Generic,
 	itemPrice: 20,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 7,
@@ -134,7 +134,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Generic,
 	itemPrice: 50,
-	itemQty: 9
+	itemQty: 0
 },
 {
 	itemId: 8,
@@ -142,7 +142,7 @@ itemList = [ [
 	itemClass: classType.Additive,
 	itemType: additiveType.Generic,
 	itemPrice: 70,
-	itemQty: 9
+	itemQty: 0
 },
 ],
 [
@@ -153,7 +153,8 @@ itemList = [ [
 	itemType: spiritType.Generic,
 	alcohol: 10,
 	valueBonus: 40,
-	itemQty: 3
+	itemPrice: 80,
+	itemQty: 0
 },
 {
 	itemId: 1,
@@ -162,7 +163,8 @@ itemList = [ [
 	itemType: spiritType.Light,
 	alcohol: 15,
 	valueBonus: 55,
-	itemQty: 3
+	itemPrice: 110,
+	itemQty: 0
 },
 {
 	itemId: 2,
@@ -171,6 +173,8 @@ itemList = [ [
 	itemType: spiritType.Arcane,
 	alcohol: 17,
 	valueBonus: 70,
-	itemQty: 6
+	itemPrice: 140,
+	itemQty: 0
 }
 ] ];
+moneyVault = 1000000;

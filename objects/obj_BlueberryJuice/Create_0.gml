@@ -1,2 +1,2 @@
-itemClass = classType.Mixer;
-DestroyItem(Items.itemList[self.itemClass][self.itemId]);
+self.itemClass = classType.Mixer;
+self.itemId = 1;

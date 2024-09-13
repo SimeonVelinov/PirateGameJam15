@@ -1,3 +1,6 @@
+function DebugDrawMoney(){
+draw_text (460, 0, "money: " + string(Items.moneyVault));
+}
 function DebugDrawInfoMixer(itemInst, posX, posY){		
 draw_text (posX, posY, itemInst.itemName);
 draw_text (posX + 180, posY, "qty: " + string(itemInst.itemQty));

@@ -1,2 +1,2 @@
-/// @description 
+/// @description iframe counter
 iFrames = false;

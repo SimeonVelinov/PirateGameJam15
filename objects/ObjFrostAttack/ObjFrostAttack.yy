@@ -10,9 +10,12 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Player Attacks",
-    "path":"folders/Objects/Player Attacks.yy",
+    "path":"folders/Objects/Attacks/Player Attacks.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"AttackParent",
+    "path":"objects/AttackParent/AttackParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

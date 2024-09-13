@@ -1,6 +1,7 @@
 persistent = true;
 posX = 20; posY = 0;
 
+DebugDrawMoney();
 for (var i = 0; i < array_length(itemList[0]); i++)
 {
 	DebugDrawInfoMixer(itemList[classType.Mixer][i], posX, posY);

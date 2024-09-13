@@ -1,4 +1,3 @@
-persistent = true;
 //jank-ass code part two
 orangeJuiceAct = false;
 blueberryJuiceAct = false;

@@ -6,9 +6,7 @@
   ],
   "managed":true,
   "name":"obj_ButtonLeaveBar",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ButtonParent","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TRY AGAIN",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"UIButtons",
     "path":"folders/Objects/Buttons/UIButtons.yy",

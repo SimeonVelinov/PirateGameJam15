@@ -177,4 +177,9 @@ itemList = [ [
 	itemQty: 0
 }
 ] ];
+itemCatalogue = [
+[obj_BlueberryJuice, obj_LimeJuice, obj_OrangeJuice, obj_RaspberryJuice, obj_StrawberryJuice, obj_Tonic],
+[obj_AddGrenadine, obj_AddOlives, obj_AddTomato, obj_Cucumber, obj_Elderflower, obj_Ginger, obj_Honey, obj_Mint, obj_Peppers],
+[obj_ArcaneSpirit, obj_GenericSpirit, obj_LightSpirit]
+];
 moneyVault = 1000000;

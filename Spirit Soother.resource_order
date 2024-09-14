@@ -113,6 +113,7 @@
     {"name":"Store","order":3,"path":"rooms/Store/Store.yy",},
     {"name":"BuyItem","order":7,"path":"scripts/BuyItem/BuyItem.yy",},
     {"name":"DestroyItem","order":5,"path":"scripts/DestroyItem/DestroyItem.yy",},
+    {"name":"DropItem","order":10,"path":"scripts/DropItem/DropItem.yy",},
     {"name":"EnemyTakeDamage","order":2,"path":"scripts/EnemyTakeDamage/EnemyTakeDamage.yy",},
     {"name":"InitMonster","order":1,"path":"scripts/InitMonster/InitMonster.yy",},
     {"name":"InitShaker","order":9,"path":"scripts/InitShaker/InitShaker.yy",},

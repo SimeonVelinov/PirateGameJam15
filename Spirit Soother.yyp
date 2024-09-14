@@ -183,6 +183,7 @@
     {"id":{"name":"BuyItem","path":"scripts/BuyItem/BuyItem.yy",},},
     {"id":{"name":"DebugDrawInfo","path":"scripts/DebugDrawInfo/DebugDrawInfo.yy",},},
     {"id":{"name":"DestroyItem","path":"scripts/DestroyItem/DestroyItem.yy",},},
+    {"id":{"name":"DropItem","path":"scripts/DropItem/DropItem.yy",},},
     {"id":{"name":"EnemyDamage","path":"scripts/EnemyDamage/EnemyDamage.yy",},},
     {"id":{"name":"EnemyTakeDamage","path":"scripts/EnemyTakeDamage/EnemyTakeDamage.yy",},},
     {"id":{"name":"InitMonster","path":"scripts/InitMonster/InitMonster.yy",},},

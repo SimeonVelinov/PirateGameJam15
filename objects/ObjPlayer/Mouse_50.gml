@@ -1,0 +1,1 @@
+AttackCastSpell(spellbook.LightningBolt);

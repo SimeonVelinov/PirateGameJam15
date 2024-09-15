@@ -1,0 +1,1 @@
+///@description Lightning Bolt Cooldown

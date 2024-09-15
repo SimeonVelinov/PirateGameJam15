@@ -4,47 +4,47 @@ function enableAdditive(element)  {
 	switch (element) {
 	case "grenadine":
 		{
-			Buffs.grenadineAct = true;
+			PlayerBuffs.grenadineAct = true;
 			break;
 		}
 	case "olives":
 		{
-			Buffs.olivesAct = true;
+			PlayerBuffs.olivesAct = true;
 			break;
 		}
 	case "tomato":
 		{
-			Buffs.tomatoAct = true;
+			PlayerBuffs.tomatoAct = true;
 			break;
 		}
 	case "cucumber":
 		{
-			Buffs.cucumberAct = true;
+			PlayerBuffs.cucumberAct = true;
 			break;
 		}
 	case "elderflower":
 		{
-			Buffs.elderflowerAct = true;
+			PlayerBuffs.elderflowerAct = true;
 			break;
 		}
 	case "ginger":
 		{
-			Buffs.gingerAct = true;
+			PlayerBuffs.gingerAct = true;
 			break;
 		}
 	case "honey":
 		{
-			Buffs.honeyAct = true;
+			PlayerBuffs.honeyAct = true;
 			break;
 		}
 	case "mint":
 		{
-			Buffs.mintAct = true;
+			PlayerBuffs.mintAct = true;
 			break;
 		}
 	case "chillis":
 		{
-			Buffs.chillisAct = true;
+			PlayerBuffs.chillisAct = true;
 			break;
 		}
 	}
@@ -54,17 +54,17 @@ function enableSpirits(element)  {
 	switch (element) {
 	case "arcane":
 		{
-			Buffs.arcaneSpiritAct = true;
+			PlayerBuffs.arcaneSpiritAct = true;
 			break;
 		}
 	case "generic":
 		{
-			Buffs.genericSpiritAct = true;
+			PlayerBuffs.genericSpiritAct = true;
 			break;
 		}
 	case "light":
 		{
-			Buffs.lightSpiritAct = true;
+			PlayerBuffs.lightSpiritAct = true;
 			break;
 		}
 	}

@@ -1,1 +1,0 @@
-EnemyTakeDamage(ObjBasicAttack);

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"AttackSetDirection",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AttackSetDirection",
+  "parent":{
+    "name":"AttackScripts",
+    "path":"folders/Scripts/AttackScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

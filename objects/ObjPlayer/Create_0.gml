@@ -3,12 +3,7 @@
 	moveSpd = 5;
 	xspd = 0;
 	yspd = 0;
-	canShoot = true;
-	canCone = true;
-	canMove = true;
-	canFrost = true;
-	canBomb = true;
-	
+		
 //Black out Bar (BoB) UI
 	healthBoBwidth = 32;
 	healthBoBheight = 128; 
@@ -31,3 +26,9 @@
 
 	face = 3;
 	sprite[0] = sPlayerAll;
+	
+//deprecated variables
+	canCone = true;
+	canMove = true;
+	canFrost = true;
+	canBomb = true;

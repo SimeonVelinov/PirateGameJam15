@@ -1,7 +1,7 @@
-function EnemyTakeDamage(attack){
-self.shadowHealth -= attack.damage;
+function EnemyTakeDamage(npc, attack){
+npc.shadowHealth -= PlayerSpells.spellStats[attack].attackDamage;
 instance_destroy(attack);
-if self.shadowHealth <= 0 {
+if npc.shadowHealth <= 0 {
 	instance_destroy();
 }
 }

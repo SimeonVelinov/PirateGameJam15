@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"AttackCastSpell",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AttackCastSpell",
+  "parent":{
+    "name":"AttackScripts",
+    "path":"folders/Scripts/AttackScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

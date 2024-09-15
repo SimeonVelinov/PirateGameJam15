@@ -1,0 +1,1 @@
+EnemyTakeDamage(self, other.attackId);

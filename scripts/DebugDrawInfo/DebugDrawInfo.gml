@@ -1,6 +1,7 @@
 function DebugDrawMoney(){
 draw_text (460, 0, "money: " + string(Items.moneyVault));
 draw_text (460, 20, "kills: " + string(PlayerStats.kills));
+draw_text (460, 40, "fps: " + string(fps_real));
 }
 function DebugDrawInfoMixer(itemInst, posX, posY){		
 draw_text (posX, posY, itemInst.itemName);

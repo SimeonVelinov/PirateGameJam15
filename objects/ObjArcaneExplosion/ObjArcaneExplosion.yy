@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"ObjArcaneExplosion",
+  "%Name":"objArcaneExplosion",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjArcaneExplosion",
+  "name":"objArcaneExplosion",
   "overriddenProperties":[],
   "parent":{
     "name":"Player Attacks",
     "path":"folders/Objects/Attacks/Player Attacks.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objAttack",
+    "path":"objects/objAttack/objAttack.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sArcaneExplosion",
-    "path":"sprites/sArcaneExplosion/sArcaneExplosion.yy",
+    "name":"imgArcaneExplosion",
+    "path":"sprites/imgArcaneExplosion/imgArcaneExplosion.yy",
   },
   "spriteMaskId":null,
   "visible":true,

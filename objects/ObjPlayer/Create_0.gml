@@ -1,4 +1,6 @@
 //variables for movement
+	canMove = true;
+	canShoot = true;
 	moveDir = 0;
 	moveSpd = 5;
 	xspd = 0;
@@ -16,7 +18,6 @@
 	
 	iFrames = false; 
 
-
 //sprite control
 	centerYOffest = -3;
 	centerY = y + centerYOffest; // set in step
@@ -26,9 +27,3 @@
 
 	face = 3;
 	sprite[0] = sPlayerAll;
-	
-//deprecated variables
-	canCone = true;
-	canMove = true;
-	canFrost = true;
-	canBomb = true;

@@ -2,7 +2,7 @@
 	canMove = true;
 	canShoot = true;
 	moveDir = 0;
-	moveSpd = 5;
+	moveSpd = PlayerStats.speed;
 	xspd = 0;
 	yspd = 0;
 		

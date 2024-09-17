@@ -1,5 +1,5 @@
 /// @description 
-if PlayerStats.healthBoB <= 100 and iFrames == false
+if PlayerStats.healthBoB <= PlayerStats.healthBoBMax and iFrames == false
 { 
 	PlayerStats.healthBoB += 4; 
 	iFrames = true;

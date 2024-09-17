@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"playerBasicAttack",
+  "%Name":"CheckBuffs",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"playerBasicAttack",
+  "name":"CheckBuffs",
   "parent":{
     "name":"Player Scripts",
     "path":"folders/Scripts/Player Scripts.yy",

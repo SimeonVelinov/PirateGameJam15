@@ -9,7 +9,7 @@ stats = [
 {
 	spellId: spellbook.LightningBolt,
 	spellName: objLightningBolt,
-	damage: 5,
+	damage: 1,
 	cooldown: 120,
 	projectile: true,
 	projectileSpeed: 20,
@@ -53,7 +53,7 @@ stats = [
 {
 	spellId: spellbook.FrostNova,
 	spellName: objFrostNova,
-	damage: 0.6 / 30,
+	damage: 0.6,
 	cooldown: 300,
 	projectile: false,
 	projectileSpeed: 0,

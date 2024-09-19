@@ -25,7 +25,6 @@ function ShakerAddItem(item){
 		{
 			if (ShakerContents.spiritAvailable > 0){
 			ShakerContents.spiritAvailable--;
-			ShakerContents.spiritCount++;
 			ShakerContents.alcoholLevel += item.alcohol;
 			addItem = true;
 			}

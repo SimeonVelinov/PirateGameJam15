@@ -4,8 +4,6 @@ if instance_exists(ObjPlayer) {
 	y = ObjPlayer.y + lengthdir_y(distance, angle)
 }
 
-EnemyDamage();
-
 if !audio_is_playing(ShadowSound) {
 	audio_play_sound(ShadowSound, 2, 0);
 }

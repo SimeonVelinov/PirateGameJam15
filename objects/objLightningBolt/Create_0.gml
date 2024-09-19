@@ -1,0 +1,1 @@
+attackId = spellbook.LightningBolt;

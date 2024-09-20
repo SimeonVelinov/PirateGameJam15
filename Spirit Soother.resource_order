@@ -135,6 +135,7 @@
     {"name":"playerZoneEnter","order":2,"path":"scripts/playerZoneEnter/playerZoneEnter.yy",},
     {"name":"roomFade","order":1,"path":"scripts/roomFade/roomFade.yy",},
     {"name":"ShakerAddItem","order":4,"path":"scripts/ShakerAddItem/ShakerAddItem.yy",},
+    {"name":"splitLightningBolt","order":4,"path":"scripts/splitLightningBolt/splitLightningBolt.yy",},
     {"name":"BarMusic","order":10,"path":"sounds/BarMusic/BarMusic.yy",},
     {"name":"DayMusic","order":3,"path":"sounds/DayMusic/DayMusic.yy",},
     {"name":"IceSound1","order":8,"path":"sounds/IceSound1/IceSound1.yy",},

@@ -207,6 +207,7 @@
     {"id":{"name":"playerZoneEnter","path":"scripts/playerZoneEnter/playerZoneEnter.yy",},},
     {"id":{"name":"roomFade","path":"scripts/roomFade/roomFade.yy",},},
     {"id":{"name":"ShakerAddItem","path":"scripts/ShakerAddItem/ShakerAddItem.yy",},},
+    {"id":{"name":"splitLightningBolt","path":"scripts/splitLightningBolt/splitLightningBolt.yy",},},
     {"id":{"name":"Transition_Functions","path":"scripts/Transition_Functions/Transition_Functions.yy",},},
     {"id":{"name":"seq_Logo1","path":"sequences/seq_Logo1/seq_Logo1.yy",},},
     {"id":{"name":"BarMusic","path":"sounds/BarMusic/BarMusic.yy",},},

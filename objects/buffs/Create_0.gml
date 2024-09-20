@@ -138,3 +138,4 @@ tomatoBuff ={
 	placeholder: 0
 }
 additiveBuffs = [gingerBuff, pepperBuff, cucumberBuff, mintBuff, oliveBuff, elderflowerBuff, honeyBuff, grenadineBuff, tomatoBuff];
+//todo: fix grenadine to scale properly for channeled spells

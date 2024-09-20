@@ -27,3 +27,7 @@
 
 	face = 3;
 	sprite[0] = sPlayerAll;
+	
+//multibolt
+
+canSplit = true;

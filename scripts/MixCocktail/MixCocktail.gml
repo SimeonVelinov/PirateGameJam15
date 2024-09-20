@@ -3,6 +3,6 @@ DrinkEffects.healthPenalty += (ShakerContents.alcoholLevel - ShakerContents.toma
 if (DrinkEffects.healthPenalty < 0) DrinkEffects.healthPenalty = 0;
 if (DrinkEffects.healthPenalty >= PlayerStats.healthBoBMax) DrinkEffects.healthPenalty = PlayerStats.healthBoBMax - 1;
 CheckBuffs(ShakerContents.shakerContents[classType.Additive])
-ApplyBuffs();
+ApplyBuffs(1);
 InitShaker();
 }

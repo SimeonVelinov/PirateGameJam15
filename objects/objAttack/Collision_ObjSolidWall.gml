@@ -1,1 +1,1 @@
-if (self.projectile) instance_destroy(self);
+clearProjectile(self);

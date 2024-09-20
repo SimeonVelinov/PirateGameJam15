@@ -190,6 +190,7 @@
     {"id":{"name":"AttackSetDirection","path":"scripts/AttackSetDirection/AttackSetDirection.yy",},},
     {"id":{"name":"BuyItem","path":"scripts/BuyItem/BuyItem.yy",},},
     {"id":{"name":"CheckBuffs","path":"scripts/CheckBuffs/CheckBuffs.yy",},},
+    {"id":{"name":"clearProjectile","path":"scripts/clearProjectile/clearProjectile.yy",},},
     {"id":{"name":"Debuff","path":"scripts/Debuff/Debuff.yy",},},
     {"id":{"name":"DebugDrawInfo","path":"scripts/DebugDrawInfo/DebugDrawInfo.yy",},},
     {"id":{"name":"DestroyItem","path":"scripts/DestroyItem/DestroyItem.yy",},},

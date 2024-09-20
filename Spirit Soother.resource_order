@@ -120,6 +120,7 @@
     {"name":"AttackSetDirection","order":1,"path":"scripts/AttackSetDirection/AttackSetDirection.yy",},
     {"name":"BuyItem","order":7,"path":"scripts/BuyItem/BuyItem.yy",},
     {"name":"CheckBuffs","order":7,"path":"scripts/CheckBuffs/CheckBuffs.yy",},
+    {"name":"clearProjectile","order":3,"path":"scripts/clearProjectile/clearProjectile.yy",},
     {"name":"Debuff","order":8,"path":"scripts/Debuff/Debuff.yy",},
     {"name":"DestroyItem","order":5,"path":"scripts/DestroyItem/DestroyItem.yy",},
     {"name":"DropItem","order":10,"path":"scripts/DropItem/DropItem.yy",},

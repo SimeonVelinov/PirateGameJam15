@@ -1,146 +1,115 @@
-persistent = true;
-enum classType {
-	Mixer,
-	Additive,
-    Spirit
-}
-enum mixerType {
-	empty,
-	Light,
-	Medium,
-	Heavy
-}
-enum additiveType {
-		Fire,
-		Frost,
-		Lightning,
-	    Generic
-	}
-enum spiritType {
-	Generic,
-	Light,
-	Arcane
-}
-itemList = [ [
+itemList = [
+[
 {
 	itemId: 0,
 	itemName: "Orange Juice",
-	itemClass: classType.Mixer,
-	itemType: mixerType.Light,
+	itemClass: IngredientType.Mixer,
+	itemType: MixerType.Light,
 	itemPrice: 10,
 	itemQty: 0
 },
 {
 	itemId: 1,
 	itemName: "Blueberry Juice",
-	itemClass: classType.Mixer,
-	itemType: mixerType.Light,
+	itemClass: IngredientType.Mixer,
+	itemType: MixerType.Light,
 	itemPrice: 10,
 	itemQty: 0
 },
 {
 	itemId: 2,
 	itemName: "Lime Juice",
-	itemClass: classType.Mixer,
-	itemType: mixerType.Medium,
+	itemClass: IngredientType.Mixer,
+	itemType: MixerType.Medium,
 	itemPrice: 20,
 	itemQty: 0
 },
 {
 	itemId: 3,
 	itemName: "Strawberry Juice",
-	itemClass: classType.Mixer,
-	itemType: mixerType.Medium,
+	itemClass: IngredientType.Mixer,
+	itemType: MixerType.Medium,
 	itemPrice: 20,
 	itemQty: 0
 },
 {
 	itemId: 4,
 	itemName: "Tonic Water",
-	itemClass: classType.Mixer,
-	itemType: mixerType.Heavy,
+	itemClass: IngredientType.Mixer,
+	itemType: MixerType.Heavy,
 	itemPrice: 40,
 	itemQty: 0
 },
 {
 	itemId: 5,
 	itemName: "Raspberry Juice",
-	itemClass: classType.Mixer,
-	itemType: mixerType.Heavy,
+	itemClass: IngredientType.Mixer,
+	itemType: MixerType.Heavy,
 	itemPrice: 40,
 	itemQty: 0
 }
 ],
-[
-{
+[ //Additives
+{	name: "Ginger",
 	itemId: 0,
-	itemName: "Ginger",
-	itemClass: classType.Additive,
-	itemType: additiveType.Fire,
+	typeId: BuffType.Spell,
+	itemClass: IngredientType.Additive,
 	itemPrice: 30,
 	itemQty: 0
 },
-{
+{	name: "Hot Pepper",
 	itemId: 1,
-	itemName: "Hot Peppers",
-	itemClass: classType.Additive,
-	itemType: additiveType.Fire,
+	typeId: BuffType.Spell,
+	itemClass: IngredientType.Additive,
 	itemPrice: 50,
 	itemQty: 0
 },
-{
+{	name: "Cucumber",
 	itemId: 2,
-	itemName: "Cucumber",
-	itemClass: classType.Additive,
-	itemType: additiveType.Frost,
+	typeId: BuffType.Spell,
+	itemClass: IngredientType.Additive,
 	itemPrice: 50,
 	itemQty: 0
 },
-{
+{	name: "Mint",
 	itemId: 3,
-	itemName: "Mint",
-	itemClass: classType.Additive,
-	itemType: additiveType.Frost,
+	typeId: BuffType.Spell,
+	itemClass: IngredientType.Additive,
 	itemPrice: 50,
 	itemQty: 0
 },
-{
+{	name: "Olives",
 	itemId: 4,
-	itemName: "Olives",
-	itemClass: classType.Additive,
-	itemType: additiveType.Lightning,
+	typeId: BuffType.Spell,
+	itemClass: IngredientType.Additive,
 	itemPrice: 30,
 	itemQty: 0
 },
-{
+{	name: "Elderflower",
 	itemId: 5,
-	itemName: "Elderflower",
-	itemClass: classType.Additive,
-	itemType: additiveType.Lightning,
+	typeId: BuffType.Spell,
+	itemClass: IngredientType.Additive,
 	itemPrice: 30,
 	itemQty: 0
 },
-{
+{	name: "Honey",
 	itemId: 6,
-	itemName: "Honey",
-	itemClass: classType.Additive,
-	itemType: additiveType.Generic,
+	typeId: BuffType.Player,
+	itemClass: IngredientType.Additive,
 	itemPrice: 20,
 	itemQty: 0
 },
-{
+{	name: "Grenadine",
 	itemId: 7,
-	itemName: "Grenadine",
-	itemClass: classType.Additive,
-	itemType: additiveType.Generic,
+	typeId: BuffType.Spell,
+	itemClass: IngredientType.Additive,
 	itemPrice: 50,
 	itemQty: 0
 },
-{
+{	name: "Tomato",
 	itemId: 8,
-	itemName: "Tomato",
-	itemClass: classType.Additive,
-	itemType: additiveType.Generic,
+	typeId: BuffType.Other,
+	itemClass: IngredientType.Additive,
 	itemPrice: 70,
 	itemQty: 0
 },
@@ -149,7 +118,7 @@ itemList = [ [
 {
 	itemId: 0,
 	itemName: "Generic",
-	itemClass: classType.Spirit,
+	itemClass: IngredientType.Spirit,
 	itemType: spiritType.Generic,
 	alcohol: 10,
 	valueBonus: 40,
@@ -159,7 +128,7 @@ itemList = [ [
 {
 	itemId: 1,
 	itemName: "Light",	
-	itemClass: classType.Spirit,
+	itemClass: IngredientType.Spirit,
 	itemType: spiritType.Light,
 	alcohol: 15,
 	valueBonus: 55,
@@ -169,7 +138,7 @@ itemList = [ [
 {
 	itemId: 2,
 	itemName: "Arcane",	
-	itemClass: classType.Spirit,
+	itemClass: IngredientType.Spirit,
 	itemType: spiritType.Arcane,
 	alcohol: 17,
 	valueBonus: 70,

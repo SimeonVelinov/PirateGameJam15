@@ -1,2 +1,2 @@
-itemClass = classType.Spirit;
+itemClass = IngredientType.Spirit;
 itemId = 1;

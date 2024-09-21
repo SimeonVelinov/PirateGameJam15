@@ -1,11 +1,11 @@
 /// @description 
-if PlayerStats.healthBoB <= PlayerStats.healthBoBMax and iFrames == false
+if player.stats.healthBoB <= player.stats.healthBoBMax and iFrames == false
 { 
-	PlayerStats.healthBoB += 4; 
+	player.stats.healthBoB += 4; 
 	iFrames = true;
 	alarm[3] = 30;
 }
-if PlayerStats.healthBoB >= PlayerStats.healthBoBMax //When the BlackOutBar fills to 100,
+if player.stats.healthBoB >= player.stats.healthBoBMax //When the BlackOutBar fills to 100,
 {
 	//its still better than Undertales
 	//instance_deactivate_all(true);

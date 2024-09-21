@@ -1,27 +1,27 @@
 function ShakerAddItem(item){
 	addItem = false;
 	switch(item.itemClass){
-		case classType.Mixer:
+		case IngredientType.Mixer:
 		{
-			if (array_length(ShakerContents.shakerContents[classType.Mixer]) < 3) {
+			if (array_length(ShakerContents.shakerContents[IngredientType.Mixer]) < 3) {
 			ShakerContents.spiritAvailable++;
 			ShakerContents.additiveAvailable += item.itemType;
 			addItem = true;
 			}			
 			break;
 		}
-		case classType.Additive:
+		case IngredientType.Additive:
 		{
 			if (ShakerContents.additiveAvailable > 0) {
 			ShakerContents.additiveAvailable--;
-			if item.itemName == "Tomato"{
+			if item.name == "Tomato"{
 				ShakerContents.tomatoCount++;
 			}
 			addItem = true;
 			}			
 			break;
 		}
-		case classType.Spirit:
+		case IngredientType.Spirit:
 		{
 			if (ShakerContents.spiritAvailable > 0){
 			ShakerContents.spiritAvailable--;

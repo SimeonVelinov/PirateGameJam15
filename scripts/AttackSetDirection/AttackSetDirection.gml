@@ -5,7 +5,7 @@ if ((gamepad_axis_value(0, gp_axisrh) != 0) || (gamepad_axis_value (0, gp_axisrv
 		self.direction = point_direction(0, 0, gamepad_axis_value(0, gp_axisrh), gamepad_axis_value(0, gp_axisrv))
 		+ irandom_range(2, -2);
 	}
-if (attack == spellbook.FrostNova){
+if (attack == Spellbook.FrostNova){
 	spells.stats[attack].spellName.image_angle = 0;
 }
 else{

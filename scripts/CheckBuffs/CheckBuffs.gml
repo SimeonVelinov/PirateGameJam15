@@ -1,5 +1,5 @@
 function CheckBuffs(array){
 	for (i = 0; i < array_length(array); i++){
-		buffs.additiveBuffs[array[i].itemId].count++;
+		buffs.buffCatalogue[array[i].itemId].count++;
 	}
 }

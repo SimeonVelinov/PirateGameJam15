@@ -1,141 +1,159 @@
-//1. Ginger. Fire damage-related buffs. Increases the damage over time duration by 1 sec and reduces the cooldown of the ability by 0.5 sec
-//2. Hot peppers. Fire damage-related buffs. Increases the size of the fire cone by 1/4 and increases the initial damage it deals by 2.
-
-//3. Cucumber. Frost-related buffs. Increases the slow duration by 1 sec and reduces the cooldown by 0.5 sec
-//4. Mint. Frost-related buffs. Increases the size of the frost circle by 1/4  and increases the damage by 1
-
-//5. Olives. Lightning-related buffs. Increases the damage of the lightning beam by 1,
-//6. Elderflower. Lightning-related buffs. Makes the lightning beam 1/4 bigger and creates a new beam that fires in a random direction after the initial one hits its target
-
-//7. Honey. Generic buffs. Increase the player's move speed by 1/4 and increase the pass-out bar maximum by 3.
-//8. Grenadine. Generic buffs. Increase all damage the player deals by 1.
-gingerBuff = {
+buffCatalogue = [
+{	name: "Ginger",
+	typeId: BuffType.Spell,
 	count: 0,
-	spellId: [
-	spellbook.FlameFan
-	],
-	buffArray: [
-	{ 
+	buffProperties: [
+	{
+		spellId: Spellbook.FlameFan,
 		statName: "dotDuration",
 		statValue: 60
 	},
 	{
+		spellId: Spellbook.FlameFan,
 		statName: "cooldown",
 		statValue: -30
 	}
 	]
-}
-pepperBuff = {
+},
+{	name: "Hot Pepper",
+	typeId: BuffType.Spell,
 	count: 0,
-	spellId: [
-	spellbook.FlameFan
-	],
-	buffArray: [
+	buffProperties: [
 	{
+		spellId: Spellbook.FlameFan,
 		statName: "image_xscale",
 		statValue: 0.1534
 	},
 	{
+		spellId: Spellbook.FlameFan,
 		statName: "image_yscale",
 		statValue: 0.1534
 	},
 	{
+		spellId: Spellbook.FlameFan,
 		statName: "damage",
 		statValue: 0.45
 	}
 	]
-}
-cucumberBuff = {
+},
+{	name: "Cucumber",
 	count: 0,
-	spellId: [
-	spellbook.FrostNova
-	],
-	buffArray: [
+	typeId: BuffType.Spell,
+	buffProperties: [
 	{
+		spellId: Spellbook.FrostNova,
 		statName: "slowDuration",
 		statValue: 60
 	},
 	{
+		spellId: Spellbook.FrostNova,
 		statName: "cooldown",
 		statValue: -30
 	}
-	]	
-}
-mintBuff = {
+	]
+},
+{	name: "Mint",
 	count: 0,
-	spellId: [
-	spellbook.FrostNova
-	],
-	buffArray: [
+	typeId: BuffType.Spell,
+	buffProperties: [
 	{
+		spellId: Spellbook.FrostNova,
 		statName: "image_xscale",
 		statValue: 0.118
 	},
 	{
+		spellId: Spellbook.FrostNova,
 		statName: "image_yscale",
 		statValue: 0.118
 	},
 	{
+		spellId: Spellbook.FrostNova,
 		statName: "damage",
 		statValue: 0.033
 	}
 	]
-}
-oliveBuff = {
+},
+{	name: "Olives",
 	count: 0,
-	spellId: [
-	spellbook.LightningBolt
-	],
-	buffArray: [
+	typeId: BuffType.Spell,
+	buffProperties: [
 	{
+		spellId: Spellbook.LightningBolt,
 		statName: "damage",
 		statValue: 1
 	}
 	]
-}
-elderflowerBuff ={
+},
+{	name: "Elderflower",
 	count: 0,
-	spellId: [
-	spellbook.LightningBolt
-	],
-	buffArray: [
+	typeId: BuffType.Spell,
+	buffProperties: [
 	{
+		spellId: Spellbook.LightningBolt,
 		statName: "image_xscale",
 		statValue: 0.118
 	},
 	{
+		spellId: Spellbook.LightningBolt,
 		statName: "image_yscale",
 		statValue: 0.118
-	}
-	]
-}
-honeyBuff = {
-	count: 0,
-	spellId: [0],
-	buffArray: [],
-	playerSpeed: 1.25,
-	bobMax: 3
-}
-grenadineBuff ={
-	count: 0,
-	spellId: [
-	spellbook.LightningBolt,
-	spellbook.FlameFan,
-	spellbook.FrostNova,
-	spellbook.ArcaneExplosion
-	],
-	buffArray: [
+	},
 	{
-		statName: "damage",
+		spellId: Spellbook.LightningBolt,
+		statName: "splitOnHit",
 		statValue: 1
 	}
-	],
-}
-tomatoBuff ={
+	]
+},
+{	name: "Honey",
 	count: 0,
-	spellId: [0],
-	buffArray: [],
-	placeholder: 0
+	typeId: BuffType.Player,
+	buffProperties: [
+	{
+		statName: "healthBoBMax",
+		statValue: 3
+	},
+	{
+		statName: "speed",
+		statValue: 1.25
+	}
+	]
+},
+{	name: "Grenadine",
+	count: 0,
+	typeId: BuffType.Spell,
+	buffProperties: [
+	{
+		spellId: Spellbook.LightningBolt,
+		statName: "damage",
+		statValue: 1
+	},
+	{
+		spellId: Spellbook.FlameFan,
+		statName: "damage",
+		statValue: 1 / 45
+	},
+	{
+		spellId: Spellbook.FlameFan,
+		statName: "dotDamage",
+		statValue: 0 //1 / 120
+	},
+	{
+		spellId: Spellbook.FrostNova,
+		statName: "damage",
+		statValue: 1 / 30
+	},
+	{
+		spellId: Spellbook.ArcaneExplosion,
+		statName: "damage",
+		statValue: 0 // 1 / ?????
+	}
+	]
+},
+{	name: "Tomato",
+	count: 0,
+	typeId: BuffType.Other,
+	buffProperties: [
+	]
 }
-additiveBuffs = [gingerBuff, pepperBuff, cucumberBuff, mintBuff, oliveBuff, elderflowerBuff, honeyBuff, grenadineBuff, tomatoBuff];
-//todo: fix grenadine to scale properly for channeled spells
+];

@@ -1,2 +1,2 @@
 ///@description Lightning Bolt
-AttackCastSpell(spellbook.LightningBolt);
+AttackCastSpell(Spellbook.LightningBolt);

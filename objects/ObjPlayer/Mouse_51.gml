@@ -1,2 +1,2 @@
 /// @description Flame Fan
-AttackCastSpell(spellbook.FlameFan);
+AttackCastSpell(Spellbook.FlameFan);

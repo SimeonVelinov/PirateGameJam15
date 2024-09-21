@@ -1,2 +1,2 @@
-self.itemClass = classType.Mixer;
+self.itemClass = IngredientType.Mixer;
 self.itemId = 1;

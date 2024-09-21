@@ -1,1 +1,1 @@
-AttackCastSpell(spellbook.ArcaneExplosion);
+AttackCastSpell(Spellbook.ArcaneExplosion);

@@ -12,7 +12,7 @@ moveDir = point_direction(0, 0, horizKey, vertKey);
 var spd = 0;
 var inputLevel = point_distance(0, 0, horizKey, vertKey);
 inputLevel = clamp(inputLevel, 0, 1);
-spd = moveSpd * inputLevel;
+spd = player.stats.speed * inputLevel;
 
 	xspd = lengthdir_x(spd, moveDir);
 	yspd = lengthdir_y(spd, moveDir);

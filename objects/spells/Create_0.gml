@@ -31,14 +31,14 @@ stats = [
 {
 	spellId: spellbook.FlameFan,
 	spellName: objFlameFan,
-	damage: 1.8 / 45,
+	damage: 0.04, // 1.8 / 45
 	cooldown: 240,
 	projectile: false,
 	projectileSpeed: 0,
 	channel: true,
 	channelDuration: 45,
 	dot: true,
-	dotDamage: 2 / 120,
+	dotDamage: 2 / 120, // 2 / 120
 	dotDuration: 120,
 	slow: false,
 	slowDuration: 0,
@@ -53,7 +53,7 @@ stats = [
 {
 	spellId: spellbook.FrostNova,
 	spellName: objFrostNova,
-	damage: 0.6,
+	damage: 0.02, //0.6 / 30
 	cooldown: 300,
 	projectile: false,
 	projectileSpeed: 0,

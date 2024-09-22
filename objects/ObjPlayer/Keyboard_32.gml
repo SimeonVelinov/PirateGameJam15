@@ -1,2 +1,2 @@
 ///@description Frost Nova
-AttackCastSpell(Spellbook.FrostNova);
+spellcast(Spellbook.FrostNova);

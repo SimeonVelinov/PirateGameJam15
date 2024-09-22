@@ -1,2 +1,2 @@
 ///@description Arcane Bomb
-AttackCastSpell(Spellbook.ArcaneBomb);
+spellcast(Spellbook.ArcaneBomb);

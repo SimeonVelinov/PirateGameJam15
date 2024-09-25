@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"playerChannel",
+  "%Name":"spellChannelStop",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"playerChannel",
+  "name":"spellChannelStop",
   "parent":{
-    "name":"Player Scripts",
-    "path":"folders/Scripts/Player Scripts.yy",
+    "name":"AttackScripts",
+    "path":"folders/Scripts/AttackScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

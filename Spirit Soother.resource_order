@@ -53,6 +53,7 @@
   "ResourceOrderSettings":[
     {"name":"buffs","order":2,"path":"objects/buffs/buffs.yy",},
     {"name":"DrinkEffects","order":2,"path":"objects/DrinkEffects/DrinkEffects.yy",},
+    {"name":"enemies","order":4,"path":"objects/enemies/enemies.yy",},
     {"name":"EnemyBasicAttack","order":2,"path":"objects/EnemyBasicAttack/EnemyBasicAttack.yy",},
     {"name":"obj_AddOlives","order":1,"path":"objects/obj_AddOlives/obj_AddOlives.yy",},
     {"name":"obj_AddTomato","order":2,"path":"objects/obj_AddTomato/obj_AddTomato.yy",},
@@ -125,6 +126,7 @@
     {"name":"Debuff","order":8,"path":"scripts/Debuff/Debuff.yy",},
     {"name":"DestroyItem","order":5,"path":"scripts/DestroyItem/DestroyItem.yy",},
     {"name":"DropItem","order":10,"path":"scripts/DropItem/DropItem.yy",},
+    {"name":"enemySetDirection","order":3,"path":"scripts/enemySetDirection/enemySetDirection.yy",},
     {"name":"EnemyTakeDamage","order":2,"path":"scripts/EnemyTakeDamage/EnemyTakeDamage.yy",},
     {"name":"InitShaker","order":9,"path":"scripts/InitShaker/InitShaker.yy",},
     {"name":"MixCocktail","order":6,"path":"scripts/MixCocktail/MixCocktail.yy",},

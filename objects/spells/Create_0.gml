@@ -32,7 +32,7 @@ stats = [
 	channelDuration: 45,
 	dot: true,
 	dotDamage: 2 / 120, // 2 / 120
-	dotDuration: 120,
+	dotDuration: 119,
 	slow: false,
 	slowDuration: 0,
 	sprite_index: imgFlameFan,

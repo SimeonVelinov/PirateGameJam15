@@ -1,2 +1,1 @@
-/// @description Ranged spawnrate
-canSpawnRanged = true;
+///@description Ranged spawnrate

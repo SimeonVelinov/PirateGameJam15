@@ -1,2 +1,1 @@
-/// @description Melee spawnrate
-canSpawn = true;
+///@description Melee spawnrate

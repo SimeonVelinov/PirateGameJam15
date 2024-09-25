@@ -26,3 +26,7 @@ enum spiritType {
 	Light,
 	Arcane
 }
+enum EnemyType {
+	Melee,
+	Ranged
+}

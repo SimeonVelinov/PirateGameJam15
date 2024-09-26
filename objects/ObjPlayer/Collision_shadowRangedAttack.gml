@@ -1,11 +1,11 @@
 /// @description 
-if PlayerStats.healthBoB <= PlayerStats.healthBoBMax and iFrames == false
+if player.stats.healthBoB <= player.stats.healthBoBMax and iFrames == false
 { 
-	PlayerStats.healthBoB += 4; 
+	player.stats.healthBoB += 4; 
 	iFrames = true;
 	alarm[3] = 30;
 }
-if PlayerStats.healthBoB >= PlayerStats.healthBoBMax //When the BlackOutBar fills to 100,
+if player.stats.healthBoB >= player.stats.healthBoBMax //When the BlackOutBar fills to 100,
 {
 	//its still better than Undertales
 	//instance_deactivate_all(true);
@@ -17,5 +17,5 @@ if PlayerStats.healthBoB >= PlayerStats.healthBoBMax //When the BlackOutBar fill
 	audio_play_sound(Death1, 1, 0); //Plays Death1 over BGM without looping.
 	roomFade(room_PlayTest, 20, c_black);
 }
-instance_destroy(RangedShadowAttack);
+instance_destroy(shadowRangedAttack);
 // I hate myself for doing this

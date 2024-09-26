@@ -1,8 +1,8 @@
 function MixCocktail(){
-DrinkEffects.healthPenalty += (ShakerContents.alcoholLevel - ShakerContents.tomatoCount * array_length(ShakerContents.shakerContents[classType.Spirit]) * 4);
+CheckBuffs(ShakerContents.shakerContents[IngredientType.Additive])
+DrinkEffects.healthPenalty += (ShakerContents.alcoholLevel - buffs.buffCatalogue[8].count * array_length(ShakerContents.shakerContents[IngredientType.Spirit]) * 4);
 if (DrinkEffects.healthPenalty < 0) DrinkEffects.healthPenalty = 0;
-if (DrinkEffects.healthPenalty >= PlayerStats.healthBoBMax) DrinkEffects.healthPenalty = PlayerStats.healthBoBMax - 1;
-CheckBuffs(ShakerContents.shakerContents[classType.Additive])
-ApplyBuffs(1);
+if (DrinkEffects.healthPenalty >= player.stats.healthBoBMax) DrinkEffects.healthPenalty = player.stats.healthBoBMax - 1;
+buffs.buffCatalogue[8].count = 0;
 InitShaker();
 }

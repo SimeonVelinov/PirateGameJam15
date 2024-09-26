@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"AttackCastSpell",
+  "%Name":"spellcast",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"AttackCastSpell",
+  "name":"spellcast",
   "parent":{
     "name":"AttackScripts",
     "path":"folders/Scripts/AttackScripts.yy",

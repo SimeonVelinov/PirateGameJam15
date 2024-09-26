@@ -1,2 +1,2 @@
-itemClass = classType.Additive;
+itemClass = IngredientType.Additive;
 itemId = 1;

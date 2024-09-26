@@ -1,39 +1,35 @@
 function ShakerAddItem(item){
-	addItem = false;
 	switch(item.itemClass){
-		case classType.Mixer:
+		case IngredientType.Mixer:
 		{
-			if (array_length(ShakerContents.shakerContents[classType.Mixer]) < 3) {
-			ShakerContents.spiritAvailable++;
-			ShakerContents.additiveAvailable += item.itemType;
-			addItem = true;
+			if (array_length(ShakerContents.shakerContents[IngredientType.Mixer]) < 3) {
+				ShakerContents.spiritAvailable++;
+				ShakerContents.additiveAvailable += item.itemType;
+				addItem(item);
 			}			
 			break;
 		}
-		case classType.Additive:
+		case IngredientType.Additive:
 		{
 			if (ShakerContents.additiveAvailable > 0) {
-			ShakerContents.additiveAvailable--;
-			if item.itemName == "Tomato"{
-				ShakerContents.tomatoCount++;
-			}
-			addItem = true;
+				ShakerContents.additiveAvailable--;
+				addItem(item);
 			}			
 			break;
 		}
-		case classType.Spirit:
+		case IngredientType.Spirit:
 		{
-			if (ShakerContents.spiritAvailable > 0){
-			ShakerContents.spiritAvailable--;
-			ShakerContents.alcoholLevel += item.alcohol;
-			addItem = true;
+			if (ShakerContents.spiritAvailable > 0) {
+				ShakerContents.spiritAvailable--;
+				ShakerContents.alcoholLevel += item.alcohol;
+				addItem(item);
 			}
 			break;
 		}
+	}
 }
-if (addItem == true) {
+function addItem(item){
 	array_push(ShakerContents.shakerContents[item.itemClass], item);
 	Items.itemList[item.itemClass][item.itemId].itemQty -= 1;
 	if Items.itemList[item.itemClass][item.itemId].itemQty <= 0 DestroyItem(item);
-}
 }

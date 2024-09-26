@@ -1,7 +1,8 @@
 function DebugDrawMoney(){
 draw_text (460, 0, "money: " + string(Items.moneyVault));
-draw_text (460, 20, "kills: " + string(PlayerStats.kills));
-draw_text (560, 20, "hp: " + string(PlayerStats.healthBoBMax));
+draw_text (460, 20, "kills: " + string(player.stats.kills));
+draw_text (560, 20, "hp: " + string(player.stats.healthBoBMax));
+draw_text (560, 40, "spd: " + string(player.stats.speed));
 }
 function DebugDrawInfoMixer(itemInst, posX, posY){		
 draw_text (posX, posY, itemInst.itemName);

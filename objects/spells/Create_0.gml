@@ -1,18 +1,11 @@
-enum spellbook{
-	LightningBolt,
-	FlameFan,
-	FrostNova,
-	ArcaneBomb,
-	ArcaneExplosion
-}
 stats = [
-{
-	spellId: spellbook.LightningBolt,
+{	spellId: Spellbook.LightningBolt,
 	spellName: objLightningBolt,
 	damage: 1,
 	cooldown: 120,
+	splitOnHit: 0,
 	projectile: true,
-	projectileSpeed: 20,
+	speed: 20,
 	channel: false,
 	channelDuration: 0,
 	dot: false,
@@ -28,18 +21,18 @@ stats = [
 	soundPriority: 4,
 	soundLoop: 0
 },
-{
-	spellId: spellbook.FlameFan,
+{	spellId: Spellbook.FlameFan,
 	spellName: objFlameFan,
 	damage: 0.04, // 1.8 / 45
 	cooldown: 240,
+	splitOnHit: 0,
 	projectile: false,
-	projectileSpeed: 0,
+	speed: 0,
 	channel: true,
 	channelDuration: 45,
 	dot: true,
 	dotDamage: 2 / 120, // 2 / 120
-	dotDuration: 120,
+	dotDuration: 119,
 	slow: false,
 	slowDuration: 0,
 	sprite_index: imgFlameFan,
@@ -50,13 +43,13 @@ stats = [
 	soundPriority: 3,
 	soundLoop: 0
 },
-{
-	spellId: spellbook.FrostNova,
+{	spellId: Spellbook.FrostNova,
 	spellName: objFrostNova,
 	damage: 0.02, //0.6 / 30
 	cooldown: 300,
+	splitOnHit: 0,
 	projectile: false,
-	projectileSpeed: 0,
+	speed: 0,
 	channel: false,
 	channelDuration: 0,
 	dot: false,
@@ -72,13 +65,13 @@ stats = [
 	soundPriority: 2,
 	soundLoop: 0
 },
-{
-	spellId: spellbook.ArcaneBomb,
+{	spellId: Spellbook.ArcaneBomb,
 	spellName: objArcaneBomb,
 	damage: 0,
 	cooldown: 600,
+	splitOnHit: 0,
 	projectile: true,
-	projectileSpeed: 10,
+	speed: 10,
 	channel: false,
 	channelDuration: 0,
 	dot: false,
@@ -94,13 +87,13 @@ stats = [
 	soundPriority: 0,
 	soundLoop: 0
 },
-{
-	spellId: spellbook.ArcaneExplosion,
+{	spellId: Spellbook.ArcaneExplosion,
 	spellName: objArcaneExplosion,
 	damage: 0.2,
 	cooldown: 0,
+	splitOnHit: 0,
 	projectile: false,
-	projectileSpeed: 0,
+	speed: 0,
 	channel: false,
 	channelDuration: 0,
 	dot: false,

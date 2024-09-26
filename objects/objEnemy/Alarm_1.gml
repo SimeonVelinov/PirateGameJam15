@@ -1,2 +1,2 @@
 ///@description Slowed
-self.speed = 4;
+self.speed *= 2;

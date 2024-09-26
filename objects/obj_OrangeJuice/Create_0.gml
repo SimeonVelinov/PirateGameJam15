@@ -1,2 +1,2 @@
-itemClass = classType.Mixer;
+itemClass = IngredientType.Mixer;
 itemId = 0;

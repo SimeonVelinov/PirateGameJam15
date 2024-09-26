@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"RangedShadowAttack",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objShadowAttack",
+  "eventList":[],
   "managed":true,
-  "name":"RangedShadowAttack",
+  "name":"objShadowAttack",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy Attacks",
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sEnemyBasicAttack",
-    "path":"sprites/sEnemyBasicAttack/sEnemyBasicAttack.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

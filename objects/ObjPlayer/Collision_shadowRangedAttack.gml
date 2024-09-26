@@ -17,5 +17,5 @@ if player.stats.healthBoB >= player.stats.healthBoBMax //When the BlackOutBar fi
 	audio_play_sound(Death1, 1, 0); //Plays Death1 over BGM without looping.
 	roomFade(room_PlayTest, 20, c_black);
 }
-instance_destroy(RangedShadowAttack);
+instance_destroy(shadowRangedAttack);
 // I hate myself for doing this

@@ -3,7 +3,4 @@ function enemySetDirection(enemy){
 	if (enemy.minDistance >= point_distance(enemy.x, enemy.y, ObjPlayer.x, ObjPlayer.y)) {
 		enemy.direction += 180;
 	}
-	else if(enemy.speed < 0) {
-		enemy.direction -= 180;
-	}
 }
